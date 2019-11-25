@@ -1,0 +1,6 @@
+<!-- translation -->
+{% if page.url contains 'ja/' %}
+<li><a href="{{ page.url | remove: 'ja/'}}" class="button primary">English</a></li>
+{% else %}
+<li><a href="{{ page.url | prepend: 'ja'}}" class="button primary">日本語</a></li>
+{% endif %}

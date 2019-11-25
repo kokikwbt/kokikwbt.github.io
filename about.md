@@ -1,6 +1,7 @@
 ---
-title: About
 layout: default
+lang: en
+title: About
 ---
 
 ### Koki Kawabata
