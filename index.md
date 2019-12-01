@@ -1,4 +1,5 @@
 ---
+layout: home
 ---
 
-{% include home.html %}
+<!-- {% include home.html %} -->
