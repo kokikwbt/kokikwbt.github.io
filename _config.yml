@@ -2,15 +2,8 @@ lang: en
 exclude: []
 google_analytics: UA-152692905-1
 
-# gems:
-  # - jekyll-polyglot
-  # - jekyll-multiple-languages-plugin
-
 collections:
   ja:
     output: true
     permalink: /:collection/:name
 
-
-# languages: ['en', 'ja']
-# exclude_from_localization: ['javascript', 'images', 'css']
