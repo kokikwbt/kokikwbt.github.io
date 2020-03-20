@@ -15,42 +15,41 @@
 	<body class="is-preload">
 		<div id="page-wrapper">
 			<!-- Main -->
-				<div id="main" class="wrapper style1">
-					<div class="container">
-						<header class="major">
-							<h2>{{ page.title }}</h2>
-							<!-- <p>Ipsum dolor feugiat aliquam tempus sed magna lorem consequat accumsan</p> -->
-						</header>
-						<div class="row gtr-150">
-							<div class="col-4 col-12-medium">
+			<div id="main" class="wrapper style1">
+				<div class="container">
+					<header class="major">
+						<h2>{{ page.title }}</h2>
+						<!-- <p>Ipsum dolor feugiat aliquam tempus sed magna lorem consequat accumsan</p> -->
+					</header>
+					<div class="row gtr-150">
+						<div class="col-4 col-12-medium">
 
-								{% include sidebar.html %}
+							{% include sidebar.html %}
 
-							</div>
-							<div class="col-8 col-12-medium imp-medium">
-
-								<!-- Content -->
-									<section id="content">
-										{{ content }}
-									</section>
-							</div>
+						</div>
+						<div class="col-8 col-12-medium imp-medium">
+							<!-- Content -->
+							<section id="content">
+								{{ content }}
+							</section>
 						</div>
 					</div>
 				</div>
+			</div>
 
 			{% include foot.html %}
 
 		</div>
 
 		<!-- Scripts -->
-			<script src='{{ "assets/js/jquery.min.js" | absolute_url }}'></script>
-			<script src='{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}'></script>
-			<script src='{{ "assets/js/jquery.dropotron.min.js" | absolute_url }}'></script>
-			<script src='{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}'></script>
-			<script src='{{ "assets/js/browser.min.js" | absolute_url }}'></script>
-			<script src='{{ "assets/js/breakpoints.min.js" | absolute_url }}'></script>
-			<script src='{{ "assets/js/util.js" | absolute_url }}'></script>
-			<script src='{{ "assets/js/main.js" | absolute_url }}'></script>
+		<script src='{{ "assets/js/jquery.min.js" | absolute_url }}'></script>
+		<script src='{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}'></script>
+		<script src='{{ "assets/js/jquery.dropotron.min.js" | absolute_url }}'></script>
+		<script src='{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}'></script>
+		<script src='{{ "assets/js/browser.min.js" | absolute_url }}'></script>
+		<script src='{{ "assets/js/breakpoints.min.js" | absolute_url }}'></script>
+		<script src='{{ "assets/js/util.js" | absolute_url }}'></script>
+		<script src='{{ "assets/js/main.js" | absolute_url }}'></script>
 
 	</body>
 </html>
