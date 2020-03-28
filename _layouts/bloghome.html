@@ -136,11 +136,17 @@
 					</div>
 				</div>
 			
-			<script>
-				var posts_array = [
+<!-- 				var posts_array = [
 					["14/05/2019", "post 2", "blog/post02.html", "A project I recently finished"],
 					["03/02/2019", "post 1", "blog/post01.html", "My first blog post"],
 				];
+ -->			<script>
+				var posts_array = []
+
+				{% for post in site.posts %}
+					posts_array.push(["{{ post.date | date: '%Y/%m/%d'}}", "{{ post.title }}", "{{ post.url }}" , ""])
+				{% endfor %}
+
 				var posts_per_page,
 					total_no_pages,
 					no_posts_on_page,
