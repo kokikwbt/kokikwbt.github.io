@@ -4,7 +4,7 @@ lang: en
 title: Publications
 ---
 
-## Conferences
+### Conferences
 
 1. Koki Kawabata, Yasuko Matsubara, and Yasushi Sakurai. 2019.  
 [Automatic Sequential Pattern Mining in Data Streams.](https://doi.org/10.1145/3357384.3358002)  
@@ -16,7 +16,7 @@ In Proceedings of the 28th ACM International Conference on Information and Knowl
 [StreamScope: Automatic Pattern Discovery over Data Streams.](https://doi.org/10.1145/3211954.3211959)  
 In Proceedings of the First International Workshop on Exploiting Artificial Intelligence Techniques for Data Management (aiDM’18). Article 5, 1–8.
 
-## Journals
+### Journals
 1. Takato Honda, Yasuko Matsubara, Koki Kawabata, and Yasushi Sakurai. 2020.  
 [Multi-aspect Tensor Mining for Event Forecasting.](http://id.nii.ac.jp/1001/00202861/)  
 情報処理学会論文誌データベース(TOD), 13巻1号.
@@ -24,8 +24,7 @@ In Proceedings of the First International Workshop on Exploiting Artificial Inte
 [An Online Algorithm for Mining Data Streams.](http://id.nii.ac.jp/1001/00187084/)  
 情報処理学会論文誌データベース(TOD), 11巻1号.
 
-## Presentations
-
+### Presentations
 1. K. Kawabata, Y. Matsubara, T. Honda, Y. Imai, Y. Tajima, and Y. Sakurai. 2020.  
 [大規模購買ログの時系列分析に基づくLTV予測](),  
 JSAI 2020 (to appear)
@@ -36,3 +35,9 @@ DEIM Forum 2018, C3-3.
 1. Koki Kawabata, Yasuko Matsubara and Yasushi Sakurai,  
 [自動パターン検出のためのストリームアルゴリズム](),  
 DEIM Forum 2016, G1-6.
+
+
+### Patents
+1. **時系列解析に基づくイベント予測装置，イベント予測方法およびプログラム**，  
+    本田崇人，松原靖子，川畑光希，櫻井保志，特願 2020-8388
+<!-- 1. **blank** -->

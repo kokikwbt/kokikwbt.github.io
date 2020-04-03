@@ -4,10 +4,10 @@ lang: en
 title: About
 ---
 
-## Koki Kawabata
+### Koki Kawabata
 {% include intro.html %}
 
-### Affiliation
+#### Affiliation
 - [Sakurai/Matsubara Laboratory](https://www.dm.sanken.osaka-u.ac.jp/)
 - [Artificial Intelligence Research Center](https://www.sanken.osaka-u.ac.jp/labs/aic/index.html)
 - [The Institute of Scientific and Industrial Research](https://www.sanken.osaka-u.ac.jp/en/)
@@ -19,7 +19,7 @@ Email: [koki88@sanken.osaka-u.ac.jp](mailto:koki88@sanken.osaka-u.ac.jp)
 
 - - - 
 
-## Awards and Grants
+### Awards and Grants
 - Sep, 2019, [IPSJ Computer Science Research Award for Young Scientists](https://www.ipsj.or.jp/award/cs-award-2019.html)
 - Nov, 2019, SIGIR Student Grants (CIKM2019)
 - Sep. 2018, Best Research Paper Award (WEBDBF2018)
@@ -34,7 +34,7 @@ Award (WEBDBF2018)
 
 - - - 
 
-## Education
+### Education
 - M.Sc. (2018)
 Graduate School of Science and Technology,  
 Computer Science and Electrical Engineering,
