@@ -28,6 +28,7 @@ Award (WEBDBF2018)
 - Sep. 2018, Student Award (WEBDBF2018)
 - Mar. 2016, Best Research Paper Award (DEIM2016)
 - Mar. 2016, Student Presentation Award (DEIM2016)
+- Apr. 2019 - Mar 2020, [Tuition Fee Exemption](https://www.osaka-u.ac.jp/en/guide/student/tuition/remission/index.html), Osaka University
 - Apr. 2019 - Mar 2021, [JSPS Research fellow (DC2)](https://www.jsps.go.jp/english/e-pd/index.html), supervised by Yasushi Sakurai
 - Apr. 2018 - Mar 2019, [JASSO Repayment Exemption (Full)]()
 

@@ -9,6 +9,9 @@ title: Publications
 1. Koki Kawabata, Yasuko Matsubara, and Yasushi Sakurai. 2019.  
 [Automatic Sequential Pattern Mining in Data Streams.](https://doi.org/10.1145/3357384.3358002)  
 In Proceedings of the 28th ACM International Conference on Information and Knowledge Management (CIKM '19). pp 1733-1742.  
+[[ pdf ]]({{ site.url }}/assets/papers/3357384.3358002.pdf)
+<!-- [[ ppt ]]() -->
+[[ bibtex ]]({{ site.url }}/assets/bibtex/acm_3357384.3358002.bib)
 1. Koki Kawabata, Yasuko Matsubara, and Yasushi Sakurai. 2018.  
 [StreamScope: Automatic Pattern Discovery over Data Streams.](https://doi.org/10.1145/3211954.3211959)  
 In Proceedings of the First International Workshop on Exploiting Artificial Intelligence Techniques for Data Management (aiDM’18). Article 5, 1–8.
