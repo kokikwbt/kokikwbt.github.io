@@ -7,6 +7,22 @@ title: About
 ### Koki Kawabata
 {% include intro.html %}
 
+#### Personality type: Logician (INTP)
+The Logician personality type is fairly rare,
+making up only three percent of the population,
+which is definitely a good thing for them,
+as there’s nothing they’d be more unhappy about than being "common".
+Logicians pride themselves on their inventiveness and creativity,
+their unique perspective and vigorous intellect.
+Usually known as the philosopher, the architect, or the dreamy professor,
+Logicians have been responsible for many scientific discoveries throughout history.  
+[Take the test for you.](https://www.16personalities.com/)
+
+> Learn from yesterday, live for today, hope for tomorrow.  
+The important thing is not to stop questioning.
+by ALBERT EINSTEIN
+
+
 #### Affiliation
 - [Sakurai/Matsubara Laboratory](https://www.dm.sanken.osaka-u.ac.jp/)
 - [Artificial Intelligence Research Center](https://www.sanken.osaka-u.ac.jp/labs/aic/index.html)
