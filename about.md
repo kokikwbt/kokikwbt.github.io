@@ -25,8 +25,10 @@ by ALBERT EINSTEIN
 
 #### Affiliation
 - [Sakurai/Matsubara Laboratory](https://www.dm.sanken.osaka-u.ac.jp/)
-- [Artificial Intelligence Research Center](https://www.sanken.osaka-u.ac.jp/labs/aic/index.html)
-- [The Institute of Scientific and Industrial Research](https://www.sanken.osaka-u.ac.jp/en/)
+- [Artificial Intelligence Research Center](
+    https://www.sanken.osaka-u.ac.jp/labs/aic/index.html)
+- [The Institute of Scientific and Industrial Research](
+    https://www.sanken.osaka-u.ac.jp/en/)
 - [Osaka University](https://www.osaka-u.ac.jp/en/index.html)  
 
 Address: Mihogaoka 8-1, Ibaraki, Osaka 567-0047, Japan
