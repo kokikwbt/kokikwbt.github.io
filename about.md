@@ -38,6 +38,7 @@ Email: [koki88@sanken.osaka-u.ac.jp](mailto:koki88@sanken.osaka-u.ac.jp)
 - - - 
 
 ### Awards and Grants
+- May, 2020, [Research Paper Award (DEIM2020)]
 - Sep, 2019, [IPSJ Computer Science Research Award for Young Scientists](https://www.ipsj.or.jp/award/cs-award-2019.html)
 - Nov, 2019, SIGIR Student Grants (CIKM2019)
 - Sep. 2018, Best Research Paper Award (WEBDBF2018)
