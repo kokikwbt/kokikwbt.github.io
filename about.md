@@ -22,14 +22,13 @@ Email: [koki88@sanken.osaka-u.ac.jp](mailto:koki88@sanken.osaka-u.ac.jp)
 - - - 
 
 ### Awards and Grants
-- May, 2020, Research Paper Award (DEIM2020)
+- May, 2020, Best Paper Runner-up Award (DEIM2020)
 - Sep, 2019, [IPSJ Computer Science Research Award for Young Scientists](https://www.ipsj.or.jp/award/cs-award-2019.html)
 - Nov, 2019, SIGIR Student Grants (CIKM2019)
-- Sep. 2018, Best Research Paper Award (WEBDBF2018)
-- Sep. 2018, [PLAID, Inc.](https://plaid.co.jp/company.html#)
-Award (WEBDBF2018)
+- Sep. 2018, Best Paper Award (WEBDBF2018)
+- Sep. 2018, [PLAID, Inc.](https://plaid.co.jp/company.html#) Award (WEBDBF2018)
 - Sep. 2018, Student Award (WEBDBF2018)
-- Mar. 2016, Best Research Paper Award (DEIM2016)
+- Mar. 2016, Best Paper Award (DEIM2016)
 - Mar. 2016, Student Presentation Award (DEIM2016)
 - Apr. 2019 - Mar 2020, [Tuition Fee Exemption](https://www.osaka-u.ac.jp/en/guide/student/tuition/remission/index.html), Osaka University
 - Apr. 2019 - Mar 2021, [JSPS Research fellow (DC2)](https://www.jsps.go.jp/english/e-pd/index.html), supervised by Yasushi Sakurai
