@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New hugo Site</title>
+    <title>Homepage</title>
     <link>https://kokikwbt.github.io/</link>
-    <description>Recent content on My New hugo Site</description>
+    <description>Recent content on Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Fri, 02 Oct 2020 10:49:48 +0900</lastBuildDate><atom:link href="https://kokikwbt.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publication</title>
+      <link>https://kokikwbt.github.io/publications/</link>
+      <pubDate>Fri, 02 Oct 2020 14:55:27 +0900</pubDate>
+      
+      <guid>https://kokikwbt.github.io/publications/</guid>
+      <description>Conferences   Koki Kawabata, Yasuko Matsubara, Takato Honda, and Yasushi Sakurai. 2020.
+Non-Linear Mining of Social Activities in Tensor Streams.
+In Proceedings of The 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD &amp;lsquo;20&amp;rsquo;). pp 2093–2102.
+  Koki Kawabata, Yasuko Matsubara, and Yasushi Sakurai. 2019.
+Automatic Sequential Pattern Mining in Data Streams.
+In Proceedings of the 28th ACM International Conference on Information and Knowledge Management (CIKM &amp;lsquo;19).</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://kokikwbt.github.io/about/</link>
+      <pubDate>Fri, 02 Oct 2020 14:49:22 +0900</pubDate>
+      
+      <guid>https://kokikwbt.github.io/about/</guid>
+      <description>I am a Ph.D. student at Osaka University, Japan. My research interests are time series analysis, stream mining and machine learning techniques.
+Affiliation  Sakurai/Matsubara Laboratory Artificial Intelligence Research Center The Institute of Scientific and Industrial Research Osaka University  Address: Mihogaoka 8-1, Ibaraki, Osaka 567-0047, Japan (GoogleMap)
+Email: koki88@sanken.osaka-u.ac.jp
+ Awards and Grants  Aug. 2020, KDD Student Registration Award (KDD2020) May. 2020, Best Paper Runner-up Award (DEIM2020) Sept. 2019, IPSJ Computer Science Research Award for Young Scientists Nov.</description>
+    </item>
+    
     <item>
       <title>My First Post</title>
       <link>https://kokikwbt.github.io/posts/my-first-post/</link>

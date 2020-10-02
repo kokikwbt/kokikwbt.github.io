@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kokikwbt.github.io/posts/my-first-post/</loc>
-    <lastmod>2020-10-02T10:49:48+09:00</lastmod>
+    <loc>https://kokikwbt.github.io/publications/</loc>
+    <lastmod>2020-10-02T14:55:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kokikwbt.github.io/about/</loc>
+    <lastmod>2020-10-02T14:49:22+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://kokikwbt.github.io/</loc>
+    <lastmod>2020-10-02T10:49:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kokikwbt.github.io/posts/my-first-post/</loc>
     <lastmod>2020-10-02T10:49:48+09:00</lastmod>
   </url>
   
