@@ -7,7 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 02 Oct 2020 10:49:48 +0900</lastBuildDate><atom:link href="https://kokikwbt.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Oct 2020 21:58:31 +0900</lastBuildDate><atom:link href="https://kokikwbt.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Research] Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting</title>
+      <link>https://kokikwbt.github.io/posts/lim2019temporal/</link>
+      <pubDate>Fri, 16 Oct 2020 21:58:31 +0900</pubDate>
+      
+      <guid>https://kokikwbt.github.io/posts/lim2019temporal/</guid>
+      <description>References  Paper: https://arxiv.org/abs/1912.09363v3  </description>
+    </item>
+    
+    <item>
+      <title>[Review] Deep learning for time series classification: a review</title>
+      <link>https://kokikwbt.github.io/posts/10.1007.s10618-019-00619-1/</link>
+      <pubDate>Fri, 16 Oct 2020 21:47:53 +0900</pubDate>
+      
+      <guid>https://kokikwbt.github.io/posts/10.1007.s10618-019-00619-1/</guid>
+      <description>Goal 分類タスクのために提案されたDNN モデルの性能比較
+Data References  Paper: https://doi.org/10.1007/s10618-019-00619-1 Source code: https://github.com/hfawaz/dl-4-tsc  </description>
+    </item>
+    
     <item>
       <title>Publication</title>
       <link>https://kokikwbt.github.io/publications/</link>
@@ -17,6 +36,7 @@
       <description>Conferences   Koki Kawabata, Yasuko Matsubara, Takato Honda, and Yasushi Sakurai. 2020.
 Non-Linear Mining of Social Activities in Tensor Streams.
 In Proceedings of The 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD &amp;lsquo;20&amp;rsquo;). pp 2093–2102.
+[pdf] [pptx] [bibtex]
   Koki Kawabata, Yasuko Matsubara, and Yasushi Sakurai. 2019.
 Automatic Sequential Pattern Mining in Data Streams.
 In Proceedings of the 28th ACM International Conference on Information and Knowledge Management (CIKM &amp;lsquo;19).</description>
@@ -32,15 +52,6 @@ In Proceedings of the 28th ACM International Conference on Information and Knowl
 Affiliation  Sakurai/Matsubara Laboratory Artificial Intelligence Research Center The Institute of Scientific and Industrial Research Osaka University  Address: Mihogaoka 8-1, Ibaraki, Osaka 567-0047, Japan (GoogleMap)
 Email: koki88@sanken.osaka-u.ac.jp
  Awards and Grants  Aug. 2020, KDD Student Registration Award (KDD2020) May. 2020, Best Paper Runner-up Award (DEIM2020) Sept. 2019, IPSJ Computer Science Research Award for Young Scientists Nov.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://kokikwbt.github.io/posts/my-first-post/</link>
-      <pubDate>Fri, 02 Oct 2020 10:49:48 +0900</pubDate>
-      
-      <guid>https://kokikwbt.github.io/posts/my-first-post/</guid>
-      <description></description>
     </item>
     
   </channel>
