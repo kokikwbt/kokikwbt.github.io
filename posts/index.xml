@@ -1,0 +1,46 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on Koki Kawabata</title>
+		<link>https://kokikwbt.github.io/posts/</link>
+		<description>Recent content in Posts on Koki Kawabata</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+		<lastBuildDate>Fri, 16 Oct 2020 21:58:31 +0900</lastBuildDate>
+		<atom:link href="https://kokikwbt.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>[Research] Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting</title>
+			<link>https://kokikwbt.github.io/posts/lim2019temporal/</link>
+			<pubDate>Fri, 16 Oct 2020 21:58:31 +0900</pubDate>
+			
+			<guid>https://kokikwbt.github.io/posts/lim2019temporal/</guid>
+			<description>References  Paper: https://arxiv.org/abs/1912.09363v3  </description>
+			<content type="html"><![CDATA[<h2 id="references">References</h2>
+<ul>
+<li>Paper: <a href="https://arxiv.org/abs/1912.09363v3">https://arxiv.org/abs/1912.09363v3</a></li>
+</ul>
+]]></content>
+		</item>
+		
+		<item>
+			<title>[Review] Deep learning for time series classification: a review</title>
+			<link>https://kokikwbt.github.io/posts/10.1007.s10618-019-00619-1/</link>
+			<pubDate>Fri, 16 Oct 2020 21:47:53 +0900</pubDate>
+			
+			<guid>https://kokikwbt.github.io/posts/10.1007.s10618-019-00619-1/</guid>
+			<description>Goal 分類タスクのために提案されたDNN モデルの性能比較
+Data References  Paper: https://doi.org/10.1007/s10618-019-00619-1 Source code: https://github.com/hfawaz/dl-4-tsc  </description>
+			<content type="html"><![CDATA[<h2 id="goal">Goal</h2>
+<p>分類タスクのために提案されたDNN モデルの性能比較</p>
+<h2 id="data">Data</h2>
+<h2 id="references">References</h2>
+<ul>
+<li>Paper: <a href="https://doi.org/10.1007/s10618-019-00619-1">https://doi.org/10.1007/s10618-019-00619-1</a></li>
+<li>Source code: <a href="https://github.com/hfawaz/dl-4-tsc">https://github.com/hfawaz/dl-4-tsc</a></li>
+</ul>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>
