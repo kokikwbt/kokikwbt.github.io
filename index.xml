@@ -26,15 +26,11 @@ Tel: 06-6510 (Secretary)
       <pubDate>Fri, 02 Oct 2020 14:55:27 +0900</pubDate>
       
       <guid>https://kokikwbt.github.io/publications/</guid>
-      <description>Conferences  Koki Kawabata*, Siddharth Bhatia*, Rui Liu, Mohit Wadhwa, Bryan Hooi. 2021.
-SSMF: Shifting Seasonal Matrix Factorization. NeurIPS 2021.
-(* denotes equal contribution)
-[pdf] [code] Koki Kawabata, Yasuko Matsubara, Takato Honda, and Yasushi Sakurai. Non-Linear Mining of Social Activities in Tensor Streams.
-KDD 2020.
-[pdf] Koki Kawabata, Yasuko Matsubara, and Yasushi Sakurai. 2019.
-Automatic Sequential Pattern Mining in Data Streams.
-CIKM 2019.
-[pdf] Koki Kawabata, Yasuko Matsubara, and Yasushi Sakurai.</description>
+      <description>Conferences   Koki Kawabata*, Siddharth Bhatia*, Rui Liu, Mohit Wadhwa, Bryan Hooi. 2021.
+SSMF: Shifting Seasonal Matrix Factorization. NeurIPS 2021. [pdf] [code]
+  Koki Kawabata, Yasuko Matsubara, Takato Honda, and Yasushi Sakurai. Non-Linear Mining of Social Activities in Tensor Streams. KDD 2020. [pdf]
+  Koki Kawabata, Yasuko Matsubara, and Yasushi Sakurai. Automatic Sequential Pattern Mining in Data Streams. CIKM 2019. [pdf]
+  Koki Kawabata, Yasuko Matsubara, and Yasushi Sakurai.</description>
     </item>
     
   </channel>
