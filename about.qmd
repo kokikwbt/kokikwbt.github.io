@@ -24,5 +24,8 @@ The University of Osaka<br>
 
 ::: {.contact-links}
 [GitHub](https://github.com/kokikwbt){.btn .btn-outline-primary}
+[researchmap](https://researchmap.jp/koki-kawabata){.btn .btn-outline-primary}
+[X](https://x.com/kokikwbt){.btn .btn-outline-primary}
+[LinkedIn](https://www.linkedin.com/in/kokikwbt/){.btn .btn-outline-primary}
 [The University of Osaka profile](https://rd.iai.osaka-u.ac.jp/ja/741f1b08cc6f3c12.html){.btn .btn-outline-primary}
 :::

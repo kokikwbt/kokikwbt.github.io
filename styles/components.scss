@@ -392,6 +392,13 @@ main.content h2 {
   margin-top: 2rem;
 }
 
+.contact-links > p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 0;
+}
+
 .email-reveal {
   padding: 0.6rem 1rem;
   border: 1px solid var(--site-border);
