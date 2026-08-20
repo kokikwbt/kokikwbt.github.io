@@ -13,7 +13,7 @@ toc: false
 
 I develop scalable methods for understanding patterns, changes, and anomalies in complex data streams.
 
-<p class="hero-role">Assistant Professor · SANKEN, Osaka University</p>
+<p class="hero-role">Assistant Professor · SANKEN, The University of Osaka</p>
 
 [Explore research](research.qmd){.btn .btn-primary .btn-lg}
 [View publications](publications.qmd){.btn .btn-outline-primary .btn-lg}

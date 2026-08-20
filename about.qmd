@@ -4,16 +4,16 @@ description: "About Koki Kawabata."
 page-layout: article
 ---
 
-<p class="page-lead">I am an Assistant Professor at SANKEN, Osaka University, working on data mining and machine learning for complex, evolving data.</p>
+<p class="page-lead">I am an Assistant Professor at SANKEN, The University of Osaka, working on data mining and machine learning for complex, evolving data.</p>
 
 ## Background
 
-I received my Ph.D. in Information Science from Osaka University in 2021. My work spans data-stream processing, tensor decomposition, anomaly detection, and time-series analysis, with an emphasis on algorithms that are both mathematically grounded and useful in real-world settings.
+I received my Ph.D. in Information Science from The University of Osaka in 2021. My work spans data-stream processing, tensor decomposition, anomaly detection, and time-series analysis, with an emphasis on algorithms that are both mathematically grounded and useful in real-world settings.
 
 ## Affiliation
 
 **The Institute of Scientific and Industrial Research (SANKEN)**<br>
-Osaka University<br>
+The University of Osaka<br>
 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan
 
 ## Contact
@@ -22,5 +22,5 @@ Osaka University<br>
 
 ::: {.contact-links}
 [GitHub](https://github.com/kokikwbt){.btn .btn-outline-primary}
-[Osaka University profile](https://rd.iai.osaka-u.ac.jp/ja/741f1b08cc6f3c12.html){.btn .btn-outline-primary}
+[The University of Osaka profile](https://rd.iai.osaka-u.ac.jp/ja/741f1b08cc6f3c12.html){.btn .btn-outline-primary}
 :::

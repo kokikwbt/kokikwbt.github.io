@@ -30,7 +30,7 @@ website:
   page-footer:
     left: "© 2026 Koki Kawabata"
     right:
-      - text: "SANKEN, Osaka University"
+      - text: "SANKEN, The University of Osaka"
         href: https://www.sanken.osaka-u.ac.jp/
 
 format:
