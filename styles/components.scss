@@ -278,32 +278,22 @@ main.content h2 {
 }
 
 .publication-item {
-  display: grid;
-  grid-template-columns: 72px 1fr;
-  column-gap: 1.5rem;
   padding: 2rem 0;
   border-bottom: 1px solid var(--site-border);
 }
 
-.publication-item .publication-year {
-  grid-row: 1 / span 4;
-  padding-top: 0.35rem;
-}
-
-.publication-item h3,
-.publication-item p {
-  grid-column: 2;
-}
-
 .publication-item h3 {
   margin: 0 0 0.65rem;
-  font-size: 1.25rem;
+  max-width: 920px;
+  font-size: 1.2rem;
   line-height: 1.4;
 }
 
 .publication-item p {
+  max-width: 940px;
   margin-bottom: 0.65rem;
   color: var(--site-muted);
+  line-height: 1.7;
 }
 
 .pub-link,
@@ -382,20 +372,6 @@ main.content h2 {
     font-size: 2.45rem;
   }
 
-  .publication-item {
-    grid-template-columns: 1fr;
-  }
-
-  .publication-item .publication-year,
-  .publication-item h3,
-  .publication-item p {
-    grid-column: 1;
-  }
-
-  .publication-item .publication-year {
-    grid-row: auto;
-    margin-bottom: 0.65rem;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -1,52 +1,88 @@
 ---
-title: "Selected Publications"
+title: "Publications"
 description: "Selected publications by Koki Kawabata."
 page-layout: article
 ---
 
 <p class="page-lead">Selected work on streaming data, tensor mining, forecasting, and anomaly detection.</p>
 
+## Preprints
+
 ::: {.publication-list}
 ::: {.publication-item}
-<span class="publication-year">2025</span>
-
 ### CyberCScope: Mining Skewed Tensor Streams and Online Anomaly Detection in Cybersecurity Systems
 
-Kota Nakamura, **Koki Kawabata**, Shungo Tanaka, Yasuko Matsubara, and Yasushi Sakurai.
+Kota Nakamura, **Koki Kawabata**, Shungo Tanaka, Yasuko Matsubara, and Yasushi Sakurai. 2025.
 
 [arXiv](https://arxiv.org/abs/2503.00871){.pub-link}
 :::
+:::
 
+## International Conference Papers
+
+::: {.publication-list}
 ::: {.publication-item}
-<span class="publication-year">2022</span>
-
 ### Fast Mining and Forecasting of Co-evolving Epidemiological Data Streams
 
 Tasuku Kimura, Yasuko Matsubara, **Koki Kawabata**, and Yasushi Sakurai. *KDD 2022*.
 :::
 
 ::: {.publication-item}
-<span class="publication-year">2021</span>
-
 ### SSMF: Shifting Seasonal Matrix Factorization
 
 **Koki Kawabata**, Siddharth Bhatia, Rui Liu, Mohit Wadhwa, and Bryan Hooi. *NeurIPS 2021*.
 :::
 
 ::: {.publication-item}
-<span class="publication-year">2020</span>
-
 ### Non-Linear Mining of Social Activities in Tensor Streams
 
 **Koki Kawabata**, Yasuko Matsubara, Takato Honda, and Yasushi Sakurai. *KDD 2020*.
 :::
 
 ::: {.publication-item}
-<span class="publication-year">2019</span>
-
 ### Automatic Sequential Pattern Mining in Data Streams
 
 **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *CIKM 2019*.
+:::
+
+::: {.publication-item}
+### StreamScope: Automatic Pattern Discovery over Data Streams
+
+**Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *aiDM 2018 (SIGMOD Workshop)*.
+:::
+:::
+
+## Domestic Journal Articles
+
+::: {.publication-list}
+::: {.publication-item}
+### Automatic Mining of Complex Event Streams
+
+Kota Nakamura, Yasuko Matsubara, **Koki Kawabata**, Yuhei Umeda, Yuichiro Wada, and Yasushi Sakurai. *IPSJ Transactions on Databases*, 14(4), 2021.
+:::
+
+::: {.publication-item}
+### Non-Linear Mining of Social Activities in Tensor Streams
+
+**Koki Kawabata**, Yasuko Matsubara, Takato Honda, and Yasushi Sakurai. *IPSJ Transactions on Databases*, 14(3), 2021.
+:::
+
+::: {.publication-item}
+### Real-time Forecasting of Co-evolving Epidemics
+
+Tasuku Kimura, Yasuko Matsubara, **Koki Kawabata**, and Yasushi Sakurai. *IPSJ Transactions on Databases*, 14(2), 2021.
+:::
+
+::: {.publication-item}
+### Multi-aspect Tensor Mining for Event Forecasting
+
+Takato Honda, Yasuko Matsubara, **Koki Kawabata**, and Yasushi Sakurai. *IPSJ Transactions on Databases*, 13(1), 2020.
+:::
+
+::: {.publication-item}
+### An Online Algorithm for Mining Data Streams
+
+**Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *IPSJ Transactions on Databases*, 11(1), 2018.
 :::
 :::
 
