@@ -1,13 +1,13 @@
 /*-- scss:defaults --*/
 
-$body-bg: #f7f9fc;
-$body-color: #263342;
-$primary: #2563a9;
-$secondary: #637083;
-$link-color: #2563a9;
-$border-color: #dce3eb;
-$navbar-bg: #f7f9fc;
-$navbar-fg: #263342;
+$body-bg: #fafafa;
+$body-color: #18181b;
+$primary: #0f766e;
+$secondary: #71717a;
+$link-color: #0f766e;
+$border-color: #e4e4e7;
+$navbar-bg: #fafafa;
+$navbar-fg: #18181b;
 $card-bg: #ffffff;
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", sans-serif;
 $headings-font-weight: 650;
@@ -17,13 +17,13 @@ $grid-body-width: 1020px;
 /*-- scss:rules --*/
 
 :root {
-  --site-bg: #f7f9fc;
+  --site-bg: #fafafa;
   --site-surface: #ffffff;
-  --site-text: #263342;
-  --site-muted: #637083;
-  --site-primary: #2563a9;
-  --site-accent: #087f8c;
-  --site-border: #dce3eb;
-  --site-glow: rgba(37, 99, 169, 0.16);
-  --site-grid: rgba(37, 99, 169, 0.18);
+  --site-text: #18181b;
+  --site-muted: #71717a;
+  --site-primary: #0f766e;
+  --site-accent: #0d9488;
+  --site-border: #e4e4e7;
+  --site-glow: rgba(13, 148, 136, 0.16);
+  --site-grid: rgba(13, 148, 136, 0.18);
 }
