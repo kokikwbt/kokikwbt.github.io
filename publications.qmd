@@ -6,22 +6,6 @@ page-layout: article
 
 <p class="page-lead">Publications grouped by publication type.</p>
 
-## Student Workshop Papers
-
-::: {.publication-list}
-::: {.publication-item}
-### [Entropy-Based Anomaly Detection in Evolving Graph Streams](https://researchmap.jp/koki-kawabata/published_papers/54268356)
-
-Satoshi Kayano. *VLDB 2025 PhD Workshop*, 2025.
-:::
-
-::: {.publication-item}
-### [Mining Interest Diffusion in Online Activity Data Streams](https://doi.org/10.1145/3589335.3651259)
-
-Shingo Higashiguchi. *The Web Conference 2024 Companion*, 1194–1197, 2024.
-:::
-:::
-
 ## International Conference and Workshop Papers
 
 ::: {.publication-list}
@@ -113,6 +97,22 @@ Kota Nakamura, Yasuko Matsubara, **Koki Kawabata**, and Yasushi Sakurai. *CEUR W
 ### [Data Stream Analysis of Online Activities](https://doi.org/10.1109/Cybermatics_2018.2018.00175)
 
 **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *IEEE iThings/GreenCom/CPSCom/SmartData 2018*, 925–926, 2018.
+:::
+:::
+
+## Student Workshop Papers
+
+::: {.publication-list}
+::: {.publication-item}
+### [Entropy-Based Anomaly Detection in Evolving Graph Streams](https://researchmap.jp/koki-kawabata/published_papers/54268356)
+
+Satoshi Kayano. *VLDB 2025 PhD Workshop*, 2025.
+:::
+
+::: {.publication-item}
+### [Mining Interest Diffusion in Online Activity Data Streams](https://doi.org/10.1145/3589335.3651259)
+
+Shingo Higashiguchi. *The Web Conference 2024 Companion*, 1194–1197, 2024.
 :::
 :::
 
