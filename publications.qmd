@@ -4,7 +4,23 @@ description: "Publications by Koki Kawabata."
 page-layout: article
 ---
 
-<p class="page-lead">All papers currently listed in researchmap, grouped by publication type.</p>
+<p class="page-lead">Publications and preprints, grouped by publication type.</p>
+
+## Preprints
+
+::: {.publication-list}
+::: {.publication-item}
+### [Interpretable Dynamic Network Modeling of Tensor Time Series via Kronecker Time-Varying Graphical Lasso](https://arxiv.org/abs/2602.08197)
+
+Shingo Higashiguchi, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *arXiv:2602.08197*, 2026.
+:::
+
+::: {.publication-item}
+### [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://arxiv.org/abs/2601.04741)
+
+Kota Nakamura, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *arXiv:2601.04741*, 2026.
+:::
+:::
 
 ## International Conference and Workshop Papers
 
