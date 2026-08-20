@@ -9,14 +9,16 @@ toc: false
 ::: {.hero-copy}
 <p class="eyebrow">DATA MINING · MACHINE LEARNING</p>
 
-# Finding structure in evolving data {.hero-title}
+<h1 class="hero-title">Finding structure in evolving data</h1>
 
 I develop scalable methods for understanding patterns, changes, and anomalies in complex data streams.
 
 <p class="hero-role">Assistant Professor · SANKEN, The University of Osaka</p>
 
-[Explore research](research.qmd){.btn .btn-primary .btn-lg}
-[View publications](publications.qmd){.btn .btn-outline-primary .btn-lg}
+<div class="hero-actions">
+  <a href="./research.html" class="btn btn-primary btn-lg">Explore research</a>
+  <a href="./publications.html" class="btn btn-outline-primary btn-lg">View publications</a>
+</div>
 :::
 
 ::: {.hero-visual aria-hidden="true"}
