@@ -310,6 +310,16 @@ main.content h2 {
   line-height: 1.55;
 }
 
+.venue-highlight {
+  padding: 0.08rem 0.38rem;
+  border-radius: 0.3rem;
+  background: color-mix(in srgb, var(--site-accent) 15%, transparent);
+  box-decoration-break: clone;
+  color: var(--site-accent);
+  font-weight: 680;
+  -webkit-box-decoration-break: clone;
+}
+
 .pub-link,
 .profile-link {
   font-weight: 650;
