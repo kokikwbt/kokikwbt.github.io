@@ -1,0 +1,28 @@
+/*-- scss:defaults --*/
+
+$body-bg: #f7f9fc;
+$body-color: #263342;
+$primary: #2563a9;
+$secondary: #637083;
+$link-color: #2563a9;
+$border-color: #dce3eb;
+$navbar-bg: #f7f9fc;
+$navbar-fg: #263342;
+$card-bg: #ffffff;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans JP", sans-serif;
+$headings-font-weight: 650;
+$border-radius: 0.8rem;
+
+/*-- scss:rules --*/
+
+:root {
+  --site-bg: #f7f9fc;
+  --site-surface: #ffffff;
+  --site-text: #263342;
+  --site-muted: #637083;
+  --site-primary: #2563a9;
+  --site-accent: #087f8c;
+  --site-border: #dce3eb;
+  --site-glow: rgba(37, 99, 169, 0.16);
+  --site-grid: rgba(37, 99, 169, 0.18);
+}

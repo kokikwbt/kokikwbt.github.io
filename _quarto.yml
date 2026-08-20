@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Koki Kawabata"
+  site-url: "https://kokikwbt.github.io"
+  description: "Koki Kawabata — data mining, tensor decomposition, anomaly detection, data streams, and time-series analysis."
+  open-graph: true
+  twitter-card: true
+  back-to-top-navigation: true
+
+  navbar:
+    pinned: true
+    left:
+      - text: Research
+        href: research.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: About
+        href: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/kokikwbt
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:koki@sanken.osaka-u.ac.jp
+        aria-label: Email
+
+  page-footer:
+    left: "© 2026 Koki Kawabata"
+    right:
+      - text: "SANKEN, Osaka University"
+        href: https://www.sanken.osaka-u.ac.jp/
+
+format:
+  html:
+    theme:
+      light:
+        - cosmo
+        - styles/theme-light.scss
+        - styles/components.scss
+      dark:
+        - cosmo
+        - styles/theme-dark.scss
+        - styles/components.scss
+    respect-user-color-scheme: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    anchor-sections: true
+    toc: false

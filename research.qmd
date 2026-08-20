@@ -1,0 +1,25 @@
+---
+title: "Research"
+description: "Research themes in streaming data, tensor methods, anomaly detection, and time-series analysis."
+page-layout: article
+---
+
+<p class="page-lead">I study algorithms that reveal structure and change in large, continuously evolving datasets.</p>
+
+## Data streams and time series
+
+Real-world data are rarely static. Sensor measurements, event logs, online activity, and epidemiological observations evolve at multiple timescales. My research develops online methods that summarize these streams, detect regime changes, and forecast their future behavior.
+
+## Tensor and multi-aspect analysis
+
+Many datasets simultaneously involve entities, time, location, and other interacting dimensions. I use tensor representations to capture these relationships while keeping the resulting models scalable and interpretable.
+
+## Anomaly detection
+
+Anomalies in complex systems are often small, transient, and mixed with strong seasonal or structural variation. I investigate methods that distinguish meaningful deviations from ordinary evolution in cybersecurity, event data, and other streaming applications.
+
+## Current keywords
+
+::: {.keyword-list}
+`data mining`{.keyword} `tensor decomposition`{.keyword} `anomaly detection`{.keyword} `data-stream processing`{.keyword} `time-series analysis`{.keyword}
+:::
