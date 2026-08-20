@@ -274,26 +274,40 @@ main.content h2 {
 }
 
 .publication-list {
-  border-top: 1px solid var(--site-border);
+  display: grid;
+  gap: 1rem;
+  margin: 0.75rem 0 2.5rem;
 }
 
 .publication-item {
-  padding: 2rem 0;
-  border-bottom: 1px solid var(--site-border);
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+.publication-item::before {
+  position: absolute;
+  top: 0.55rem;
+  left: 0;
+  width: 0.42rem;
+  height: 0.42rem;
+  border-radius: 50%;
+  background: var(--site-accent);
+  content: "";
 }
 
 .publication-item h3 {
-  margin: 0 0 0.65rem;
+  margin: 0 0 0.25rem;
   max-width: 920px;
-  font-size: 1.2rem;
-  line-height: 1.4;
+  font-size: 1.05rem;
+  line-height: 1.35;
 }
 
 .publication-item p {
   max-width: 940px;
-  margin-bottom: 0.65rem;
+  margin: 0;
   color: var(--site-muted);
-  line-height: 1.7;
+  font-size: 0.94rem;
+  line-height: 1.55;
 }
 
 .pub-link,
