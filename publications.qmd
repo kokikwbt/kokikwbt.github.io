@@ -16,7 +16,7 @@ Satoshi Kayano. *VLDB 2025 PhD Workshop*, 2025.
 :::
 
 ::: {.publication-item}
-### [Mining Interest Diffusion in Online Activity Data Streams](https://researchmap.jp/koki-kawabata/published_papers/50224068)
+### [Mining Interest Diffusion in Online Activity Data Streams](https://doi.org/10.1145/3589335.3651259)
 
 Shingo Higashiguchi. *The Web Conference 2024 Companion*, 1194–1197, 2024.
 :::
@@ -38,43 +38,43 @@ Shingo Higashiguchi, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *
 :::
 
 ::: {.publication-item}
-### [D-Tracker: Modeling Interest Diffusion in Social Activity Tensor Data Streams](https://researchmap.jp/koki-kawabata/published_papers/50224080)
+### [D-Tracker: Modeling Interest Diffusion in Social Activity Tensor Data Streams](https://doi.org/10.1145/3690624.3709192)
 
 Shingo Higashiguchi, Yasuko Matsubara, **Koki Kawabata**, Taichi Murayama, and Yasushi Sakurai. *KDD 2025*, 460–471, 2025.
 :::
 
 ::: {.publication-item}
-### [CyberCScope: Mining Skewed Tensor Streams and Online Anomaly Detection in Cybersecurity Systems](https://researchmap.jp/koki-kawabata/published_papers/52652630)
+### [CyberCScope: Mining Skewed Tensor Streams and Online Anomaly Detection in Cybersecurity Systems](https://doi.org/10.1145/3701716.3715476)
 
 Kota Nakamura, **Koki Kawabata**, Shungo Tanaka, Yasuko Matsubara, and Yasushi Sakurai. *The Web Conference 2025 Companion*, 1214–1218, 2025.
 :::
 
 ::: {.publication-item}
-### [Mining of Switching Sparse Networks for Missing Value Imputation in Multivariate Time Series](https://researchmap.jp/koki-kawabata/published_papers/49985030)
+### [Mining of Switching Sparse Networks for Missing Value Imputation in Multivariate Time Series](https://doi.org/10.1145/3637528.3671760)
 
 Kohei Obata, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *KDD 2024*, 2296–2306, 2024.
 :::
 
 ::: {.publication-item}
-### [Dynamic Multi-Network Mining of Tensor Time Series](https://researchmap.jp/koki-kawabata/published_papers/49985035)
+### [Dynamic Multi-Network Mining of Tensor Time Series](https://doi.org/10.1145/3589334.3645461)
 
 Kohei Obata, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *The Web Conference 2024*, 4117–4127, 2024.
 :::
 
 ::: {.publication-item}
-### [Modeling Dynamic Interactions over Tensor Streams](https://researchmap.jp/koki-kawabata/published_papers/43468564)
+### [Modeling Dynamic Interactions over Tensor Streams](https://doi.org/10.1145/3543507.3583458)
 
 **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *The Web Conference 2023*, 2023.
 :::
 
 ::: {.publication-item}
-### [Fast and Multi-aspect Mining of Complex Time-stamped Event Streams](https://researchmap.jp/koki-kawabata/published_papers/42136738)
+### [Fast and Multi-aspect Mining of Complex Time-stamped Event Streams](https://doi.org/10.1145/3543507.3583370)
 
 Kota Nakamura, Yasuko Matsubara, **Koki Kawabata**, Yuhei Umeda, Yuichiro Wada, and Yasushi Sakurai. *The Web Conference 2023*, 2023.
 :::
 
 ::: {.publication-item}
-### [Fast Mining and Forecasting of Co-evolving Epidemiological Data Streams](https://researchmap.jp/koki-kawabata/published_papers/41096239)
+### [Fast Mining and Forecasting of Co-evolving Epidemiological Data Streams](https://doi.org/10.1145/3534678.3539078)
 
 Tasuku Kimura, Yasuko Matsubara, **Koki Kawabata**, and Yasushi Sakurai. *KDD 2022*, 2022.
 :::
@@ -92,25 +92,25 @@ Kota Nakamura, Yasuko Matsubara, **Koki Kawabata**, and Yasushi Sakurai. *CEUR W
 :::
 
 ::: {.publication-item}
-### [Non-Linear Mining of Social Activities in Tensor Streams](https://researchmap.jp/koki-kawabata/published_papers/35844772)
+### [Non-Linear Mining of Social Activities in Tensor Streams](https://doi.org/10.1145/3394486.3403260)
 
 **Koki Kawabata**, Yasuko Matsubara, Takato Honda, and Yasushi Sakurai. *KDD 2020*, 2020.
 :::
 
 ::: {.publication-item}
-### [Automatic Sequential Pattern Mining in Data Streams](https://researchmap.jp/koki-kawabata/published_papers/35844773)
+### [Automatic Sequential Pattern Mining in Data Streams](https://doi.org/10.1145/3357384.3358002)
 
 **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *CIKM 2019*, 1733–1742, 2019.
 :::
 
 ::: {.publication-item}
-### [StreamScope: Automatic Pattern Discovery over Data Streams](https://researchmap.jp/koki-kawabata/published_papers/35844776)
+### [StreamScope: Automatic Pattern Discovery over Data Streams](https://doi.org/10.1145/3211954.3211959)
 
 **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *aiDM 2018*, 2018.
 :::
 
 ::: {.publication-item}
-### [Data Stream Analysis of Online Activities](https://researchmap.jp/koki-kawabata/published_papers/35844775)
+### [Data Stream Analysis of Online Activities](https://doi.org/10.1109/Cybermatics_2018.2018.00175)
 
 **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *IEEE iThings/GreenCom/CPSCom/SmartData 2018*, 925–926, 2018.
 :::
