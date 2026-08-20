@@ -11,6 +11,7 @@ body {
 
 .navbar {
   border-bottom: 1px solid color-mix(in srgb, var(--site-border) 75%, transparent);
+  background: var(--site-nav);
   backdrop-filter: blur(14px);
 }
 
@@ -157,27 +158,19 @@ body {
 }
 
 .research-card {
-  --card-accent: var(--site-primary);
   min-height: 245px;
   padding: 1.65rem;
   border: 1px solid var(--site-border);
-  border-top: 3px solid var(--card-accent);
   border-radius: 1rem;
-  background: var(--site-surface);
-  transition: transform 160ms ease, border-color 160ms ease;
+  background: var(--site-elevated);
+  box-shadow: 0 16px 42px var(--site-shadow);
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
 }
 
 .research-card:hover {
   transform: translateY(-3px);
-  border-color: var(--card-accent);
-}
-
-.research-card:nth-child(2) {
-  --card-accent: var(--site-violet);
-}
-
-.research-card:nth-child(3) {
-  --card-accent: var(--site-rose);
+  border-color: var(--site-primary);
+  background: var(--site-surface-hover);
 }
 
 .research-card h3 {
@@ -189,13 +182,7 @@ body {
   color: var(--site-muted);
 }
 
-.card-index {
-  color: var(--card-accent);
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 0.8rem;
-  font-weight: 750;
-}
-
+.card-index,
 .publication-year {
   color: var(--site-accent);
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -210,13 +197,14 @@ body {
 .message-section .panel-tabset {
   overflow: hidden;
   border: 1px solid var(--site-border);
-  border-top: 3px solid var(--site-violet);
   border-radius: 1rem;
-  background: var(--site-surface);
+  background: var(--site-surface-muted);
+  box-shadow: 0 14px 36px var(--site-shadow);
 }
 
 .message-section .tab-content {
   padding: 2rem;
+  background: var(--site-elevated);
   color: var(--site-text);
   font-size: 1.03rem;
   line-height: 1.8;
@@ -227,18 +215,14 @@ body {
   border-color: var(--site-border);
 }
 
-.message-section .nav-link.active {
-  color: var(--site-violet);
-}
-
 .home-cta {
   margin-bottom: 7rem;
   padding: 3.5rem;
   border-radius: 1.2rem;
-  background:
-    radial-gradient(circle at 90% 10%, color-mix(in srgb, var(--site-violet) 15%, transparent), transparent 42%),
-    linear-gradient(130deg, var(--site-surface), color-mix(in srgb, var(--site-primary) 10%, var(--site-surface)));
-  border: 1px solid var(--site-border);
+  background: var(--site-primary);
+  border: 1px solid color-mix(in srgb, var(--site-primary) 82%, black);
+  box-shadow: 0 22px 54px var(--site-glow);
+  color: var(--site-on-primary);
 }
 
 .home-cta h2 {
@@ -248,8 +232,13 @@ body {
 
 .home-cta p {
   max-width: 720px;
-  color: var(--site-muted);
+  color: color-mix(in srgb, var(--site-on-primary) 82%, transparent);
   font-size: 1.02rem;
+}
+
+.home-cta a {
+  color: var(--site-on-primary);
+  font-weight: 700;
 }
 
 .quarto-title-block .quarto-title-banner,
@@ -286,56 +275,23 @@ main.content h2 {
 }
 
 .keyword {
-  --tag-color: var(--site-primary);
   display: inline-block;
   padding: 0.48rem 0.8rem;
-  border: 1px solid color-mix(in srgb, var(--tag-color) 36%, var(--site-border));
+  border: 1px solid var(--site-border);
   border-radius: 999px;
-  background: color-mix(in srgb, var(--tag-color) 8%, var(--site-surface));
-  color: var(--tag-color);
+  background: var(--site-surface-muted);
+  color: var(--site-text);
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 0.82rem;
+  transition: border-color 150ms ease, background 150ms ease;
 }
 
-.keyword:nth-child(4n + 2) {
-  --tag-color: var(--site-violet);
-}
-
-.keyword:nth-child(4n + 3) {
-  --tag-color: var(--site-amber);
-}
-
-.keyword:nth-child(4n) {
-  --tag-color: var(--site-link);
-}
-
-.category-heading::after {
-  display: block;
-  width: 2.4rem;
-  height: 0.22rem;
-  margin-top: 0.65rem;
-  border-radius: 999px;
-  background: var(--category-accent);
-  content: "";
-}
-
-.conference-heading,
-.publication-list.conference-list {
-  --category-accent: var(--site-primary);
-}
-
-.student-heading,
-.publication-list.student-list {
-  --category-accent: var(--site-violet);
-}
-
-.domestic-heading,
-.publication-list.domestic-list {
-  --category-accent: var(--site-amber);
+.keyword:hover {
+  border-color: var(--site-primary);
+  background: var(--site-surface-hover);
 }
 
 .publication-list {
-  --category-accent: var(--site-accent);
   display: grid;
   gap: 1rem;
   margin: 0.75rem 0 2.5rem;
@@ -353,7 +309,7 @@ main.content h2 {
   width: 0.42rem;
   height: 0.42rem;
   border-radius: 50%;
-  background: var(--category-accent);
+  background: var(--site-accent);
   content: "";
 }
 
@@ -375,9 +331,9 @@ main.content h2 {
 .venue-highlight {
   padding: 0.08rem 0.38rem;
   border-radius: 0.3rem;
-  background: color-mix(in srgb, var(--site-primary) 15%, transparent);
+  background: color-mix(in srgb, var(--site-accent) 15%, transparent);
   box-decoration-break: clone;
-  color: var(--site-primary);
+  color: var(--site-accent);
   font-weight: 680;
   -webkit-box-decoration-break: clone;
 }
@@ -399,7 +355,7 @@ main.content h2 {
   padding: 0.6rem 1rem;
   border: 1px solid var(--site-border);
   border-radius: 999px;
-  background: var(--site-surface);
+  background: var(--site-elevated);
   color: var(--site-primary);
   font: inherit;
   font-weight: 650;
@@ -409,6 +365,7 @@ main.content h2 {
 .email-reveal:hover,
 .email-reveal:focus-visible {
   border-color: var(--site-primary);
+  background: var(--site-surface-hover);
 }
 
 .revealed-email,
