@@ -1,0 +1,17 @@
+<script>
+  (() => {
+    const encodedAddress = [107, 111, 107, 105, 64, 115, 97, 110, 107, 101, 110, 46, 111, 115, 97, 107, 97, 45, 117, 46, 97, 99, 46, 106, 112];
+
+    document.querySelectorAll("[data-email-reveal]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const address = String.fromCharCode(...encodedAddress);
+        const link = document.createElement("a");
+        link.className = "revealed-email";
+        link.href = `mailto:${address}`;
+        link.textContent = address;
+        link.setAttribute("aria-label", `Email ${address}`);
+        button.replaceWith(link);
+      }, { once: true });
+    });
+  })();
+</script>

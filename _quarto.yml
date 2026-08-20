@@ -24,8 +24,8 @@ website:
         href: https://github.com/kokikwbt
         aria-label: GitHub
       - icon: envelope
-        href: mailto:koki@sanken.osaka-u.ac.jp
-        aria-label: Email
+        href: about.qmd#contact
+        aria-label: Contact
 
   page-footer:
     left: "© 2026 Koki Kawabata"
@@ -49,3 +49,4 @@ format:
     link-external-newwindow: true
     anchor-sections: true
     toc: false
+    include-after-body: scripts/email-protection.html

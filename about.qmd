@@ -16,9 +16,11 @@ I received my Ph.D. in Information Science from The University of Osaka in 2021.
 The University of Osaka<br>
 8-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan
 
-## Contact
+## Contact {#contact}
 
-[koki@sanken.osaka-u.ac.jp](mailto:koki@sanken.osaka-u.ac.jp)
+<button type="button" class="email-reveal" data-email-reveal aria-label="Reveal email address">Reveal email address</button>
+
+<noscript><p class="email-fallback">koki [at] sanken [dot] osaka-u [dot] ac [dot] jp</p></noscript>
 
 ::: {.contact-links}
 [GitHub](https://github.com/kokikwbt){.btn .btn-outline-primary}

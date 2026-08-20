@@ -319,6 +319,27 @@ main.content h2 {
   margin-top: 2rem;
 }
 
+.email-reveal {
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--site-border);
+  border-radius: 999px;
+  background: var(--site-surface);
+  color: var(--site-primary);
+  font: inherit;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.email-reveal:hover,
+.email-reveal:focus-visible {
+  border-color: var(--site-primary);
+}
+
+.revealed-email,
+.email-fallback {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
 @media (max-width: 800px) {
   .hero {
     grid-template-columns: 1fr;
