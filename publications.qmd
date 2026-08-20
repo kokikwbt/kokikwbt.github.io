@@ -4,23 +4,7 @@ description: "Publications by Koki Kawabata."
 page-layout: article
 ---
 
-<p class="page-lead">Publications and preprints, grouped by publication type.</p>
-
-## Preprints
-
-::: {.publication-list}
-::: {.publication-item}
-### [Interpretable Dynamic Network Modeling of Tensor Time Series via Kronecker Time-Varying Graphical Lasso](https://arxiv.org/abs/2602.08197)
-
-Shingo Higashiguchi, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *arXiv:2602.08197*, 2026.
-:::
-
-::: {.publication-item}
-### [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://arxiv.org/abs/2601.04741)
-
-Kota Nakamura, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *arXiv:2601.04741*, 2026.
-:::
-:::
+<p class="page-lead">Publications grouped by publication type.</p>
 
 ## Student Workshop Papers
 
@@ -41,6 +25,18 @@ Shingo Higashiguchi. *The Web Conference 2024 Companion*, 1194–1197, 2024.
 ## International Conference and Workshop Papers
 
 ::: {.publication-list}
+::: {.publication-item}
+### [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://doi.org/10.1145/3770854.3780164)
+
+Kota Nakamura, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *KDD 2026*, 1089–1100, 2026.
+:::
+
+::: {.publication-item}
+### [Interpretable Dynamic Network Modeling of Tensor Time Series via Kronecker Time-Varying Graphical Lasso](https://doi.org/10.1145/3774904.3792608)
+
+Shingo Higashiguchi, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *The Web Conference 2026*, 7485–7494, 2026.
+:::
+
 ::: {.publication-item}
 ### [D-Tracker: Modeling Interest Diffusion in Social Activity Tensor Data Streams](https://researchmap.jp/koki-kawabata/published_papers/50224080)
 
