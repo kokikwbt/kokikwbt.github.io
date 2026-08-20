@@ -22,7 +22,7 @@ Kota Nakamura, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *arXiv:
 :::
 :::
 
-## International Conference and Workshop Papers
+## Student Workshop Papers
 
 ::: {.publication-list}
 ::: {.publication-item}
@@ -31,6 +31,16 @@ Kota Nakamura, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *arXiv:
 Satoshi Kayano. *VLDB 2025 PhD Workshop*, 2025.
 :::
 
+::: {.publication-item}
+### [Mining Interest Diffusion in Online Activity Data Streams](https://researchmap.jp/koki-kawabata/published_papers/50224068)
+
+Shingo Higashiguchi. *The Web Conference 2024 Companion*, 1194–1197, 2024.
+:::
+:::
+
+## International Conference and Workshop Papers
+
+::: {.publication-list}
 ::: {.publication-item}
 ### [D-Tracker: Modeling Interest Diffusion in Social Activity Tensor Data Streams](https://researchmap.jp/koki-kawabata/published_papers/50224080)
 
@@ -47,12 +57,6 @@ Kota Nakamura, **Koki Kawabata**, Shungo Tanaka, Yasuko Matsubara, and Yasushi S
 ### [Mining of Switching Sparse Networks for Missing Value Imputation in Multivariate Time Series](https://researchmap.jp/koki-kawabata/published_papers/49985030)
 
 Kohei Obata, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *KDD 2024*, 2296–2306, 2024.
-:::
-
-::: {.publication-item}
-### [Mining Interest Diffusion in Online Activity Data Streams](https://researchmap.jp/koki-kawabata/published_papers/50224068)
-
-Shingo Higashiguchi. *The Web Conference 2024 Companion*, 1194–1197, 2024.
 :::
 
 ::: {.publication-item}
