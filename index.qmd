@@ -20,13 +20,28 @@ I develop scalable methods for understanding patterns, changes, and anomalies in
 :::
 
 ::: {.hero-visual aria-hidden="true"}
-<div class="signal-field">
-  <span></span><span></span><span></span><span></span><span></span>
-  <span></span><span></span><span></span><span></span><span></span>
-  <span></span><span></span><span></span><span></span><span></span>
-  <span></span><span></span><span></span><span></span><span></span>
-  <span></span><span></span><span></span><span></span><span></span>
+```{=html}
+<div class="tensor-stack">
+  <div class="tensor-slice" data-slice="X[:, :, 1]">
+    <span></span><span></span><span class="active"></span><span></span>
+    <span></span><span></span><span></span><span></span>
+    <span></span><span class="active"></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span>
+  </div>
+  <div class="tensor-slice" data-slice="X[:, :, 2]">
+    <span></span><span></span><span></span><span></span>
+    <span class="active"></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span class="active"></span>
+    <span></span><span></span><span></span><span></span>
+  </div>
+  <div class="tensor-slice" data-slice="X[:, :, 3]">
+    <span></span><span></span><span></span><span></span>
+    <span></span><span></span><span class="active"></span><span></span>
+    <span></span><span></span><span></span><span></span>
+    <span></span><span class="active"></span><span></span><span></span>
+  </div>
 </div>
+```
 :::
 :::
 
