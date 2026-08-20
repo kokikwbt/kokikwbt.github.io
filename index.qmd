@@ -58,20 +58,6 @@ Identifying subtle and evolving signals in complex real-world systems.
 :::
 :::
 
-::: {.message-section}
-## A message {.section-heading}
-
-::: {.panel-tabset}
-### English
-
-My aim is to build methods that do more than improve predictive accuracy. I want them to reveal how complex systems evolve, and to turn that understanding into reliable tools for science and society.
-
-### 日本語
-
-予測精度を向上させるだけでなく、複雑なシステムがどのように変化しているのかを明らかにし、その理解を科学や社会で信頼して使える技術へつなげることを目指しています。
-:::
-:::
-
 ::: {.home-cta}
 ## Research in motion
 
