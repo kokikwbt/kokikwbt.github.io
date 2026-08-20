@@ -22,19 +22,19 @@ I develop scalable methods for understanding patterns, changes, and anomalies in
 ::: {.hero-visual aria-hidden="true"}
 ```{=html}
 <div class="tensor-stack">
-  <div class="tensor-slice" data-slice="X[:, :, 1]">
+  <div class="tensor-slice">
     <span></span><span></span><span class="active"></span><span></span>
     <span></span><span></span><span></span><span></span>
     <span></span><span class="active"></span><span></span><span></span>
     <span></span><span></span><span></span><span></span>
   </div>
-  <div class="tensor-slice" data-slice="X[:, :, 2]">
+  <div class="tensor-slice">
     <span></span><span></span><span></span><span></span>
     <span class="active"></span><span></span><span></span><span></span>
     <span></span><span></span><span></span><span class="active"></span>
     <span></span><span></span><span></span><span></span>
   </div>
-  <div class="tensor-slice" data-slice="X[:, :, 3]">
+  <div class="tensor-slice">
     <span></span><span></span><span></span><span></span>
     <span></span><span></span><span class="active"></span><span></span>
     <span></span><span></span><span></span><span></span>

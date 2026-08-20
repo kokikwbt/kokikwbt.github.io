@@ -135,17 +135,6 @@ body {
   --slice-offset: 56px;
 }
 
-.tensor-slice::after {
-  position: absolute;
-  right: 0;
-  bottom: -1.8rem;
-  color: var(--site-muted);
-  content: attr(data-slice);
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 0.72rem;
-  letter-spacing: 0.02em;
-}
-
 .tensor-slice span {
   border-right: 1px solid var(--site-border);
   border-bottom: 1px solid var(--site-border);
