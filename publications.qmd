@@ -1,54 +1,102 @@
 ---
 title: "Publications"
-description: "Selected publications by Koki Kawabata."
+description: "Publications by Koki Kawabata."
 page-layout: article
 ---
 
-<p class="page-lead">Selected work on streaming data, tensor mining, forecasting, and anomaly detection.</p>
+<p class="page-lead">All papers currently listed in researchmap, grouped by publication type.</p>
 
-## Preprints
-
-::: {.publication-list}
-::: {.publication-item}
-### CyberCScope: Mining Skewed Tensor Streams and Online Anomaly Detection in Cybersecurity Systems
-
-Kota Nakamura, **Koki Kawabata**, Shungo Tanaka, Yasuko Matsubara, and Yasushi Sakurai. 2025.
-
-[arXiv](https://arxiv.org/abs/2503.00871){.pub-link}
-:::
-:::
-
-## International Conference Papers
+## International Conference and Workshop Papers
 
 ::: {.publication-list}
 ::: {.publication-item}
-### Fast Mining and Forecasting of Co-evolving Epidemiological Data Streams
+### [Entropy-Based Anomaly Detection in Evolving Graph Streams](https://researchmap.jp/koki-kawabata/published_papers/54268356)
 
-Tasuku Kimura, Yasuko Matsubara, **Koki Kawabata**, and Yasushi Sakurai. *KDD 2022*.
+Satoshi Kayano. *VLDB 2025 PhD Workshop*, 2025.
 :::
 
 ::: {.publication-item}
-### SSMF: Shifting Seasonal Matrix Factorization
+### [D-Tracker: Modeling Interest Diffusion in Social Activity Tensor Data Streams](https://researchmap.jp/koki-kawabata/published_papers/50224080)
 
-**Koki Kawabata**, Siddharth Bhatia, Rui Liu, Mohit Wadhwa, and Bryan Hooi. *NeurIPS 2021*.
+Shingo Higashiguchi, Yasuko Matsubara, **Koki Kawabata**, Taichi Murayama, and Yasushi Sakurai. *KDD 2025*, 460–471, 2025.
 :::
 
 ::: {.publication-item}
-### Non-Linear Mining of Social Activities in Tensor Streams
+### [CyberCScope: Mining Skewed Tensor Streams and Online Anomaly Detection in Cybersecurity Systems](https://researchmap.jp/koki-kawabata/published_papers/52652630)
 
-**Koki Kawabata**, Yasuko Matsubara, Takato Honda, and Yasushi Sakurai. *KDD 2020*.
+Kota Nakamura, **Koki Kawabata**, Shungo Tanaka, Yasuko Matsubara, and Yasushi Sakurai. *The Web Conference 2025 Companion*, 1214–1218, 2025.
 :::
 
 ::: {.publication-item}
-### Automatic Sequential Pattern Mining in Data Streams
+### [Mining of Switching Sparse Networks for Missing Value Imputation in Multivariate Time Series](https://researchmap.jp/koki-kawabata/published_papers/49985030)
 
-**Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *CIKM 2019*.
+Kohei Obata, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *KDD 2024*, 2296–2306, 2024.
 :::
 
 ::: {.publication-item}
-### StreamScope: Automatic Pattern Discovery over Data Streams
+### [Mining Interest Diffusion in Online Activity Data Streams](https://researchmap.jp/koki-kawabata/published_papers/50224068)
 
-**Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *aiDM 2018 (SIGMOD Workshop)*.
+Shingo Higashiguchi. *The Web Conference 2024 Companion*, 1194–1197, 2024.
+:::
+
+::: {.publication-item}
+### [Dynamic Multi-Network Mining of Tensor Time Series](https://researchmap.jp/koki-kawabata/published_papers/49985035)
+
+Kohei Obata, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *The Web Conference 2024*, 4117–4127, 2024.
+:::
+
+::: {.publication-item}
+### [Modeling Dynamic Interactions over Tensor Streams](https://researchmap.jp/koki-kawabata/published_papers/43468564)
+
+**Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *The Web Conference 2023*, 2023.
+:::
+
+::: {.publication-item}
+### [Fast and Multi-aspect Mining of Complex Time-stamped Event Streams](https://researchmap.jp/koki-kawabata/published_papers/42136738)
+
+Kota Nakamura, Yasuko Matsubara, **Koki Kawabata**, Yuhei Umeda, Yuichiro Wada, and Yasushi Sakurai. *The Web Conference 2023*, 2023.
+:::
+
+::: {.publication-item}
+### [Fast Mining and Forecasting of Co-evolving Epidemiological Data Streams](https://researchmap.jp/koki-kawabata/published_papers/41096239)
+
+Tasuku Kimura, Yasuko Matsubara, **Koki Kawabata**, and Yasushi Sakurai. *KDD 2022*, 2022.
+:::
+
+::: {.publication-item}
+### [SSMF: Shifting Seasonal Matrix Factorization](https://researchmap.jp/koki-kawabata/published_papers/35844780)
+
+**Koki Kawabata**, Siddharth Bhatia, Rui Liu, Mohit Wadhwa, and Bryan Hooi. *NeurIPS 2021*, 2021.
+:::
+
+::: {.publication-item}
+### [Stream Mining of Complex Event Tensor](https://researchmap.jp/koki-kawabata/published_papers/47131860)
+
+Kota Nakamura, Yasuko Matsubara, **Koki Kawabata**, and Yasushi Sakurai. *CEUR Workshop Proceedings*, 2971, 2021.
+:::
+
+::: {.publication-item}
+### [Non-Linear Mining of Social Activities in Tensor Streams](https://researchmap.jp/koki-kawabata/published_papers/35844772)
+
+**Koki Kawabata**, Yasuko Matsubara, Takato Honda, and Yasushi Sakurai. *KDD 2020*, 2020.
+:::
+
+::: {.publication-item}
+### [Automatic Sequential Pattern Mining in Data Streams](https://researchmap.jp/koki-kawabata/published_papers/35844773)
+
+**Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *CIKM 2019*, 1733–1742, 2019.
+:::
+
+::: {.publication-item}
+### [StreamScope: Automatic Pattern Discovery over Data Streams](https://researchmap.jp/koki-kawabata/published_papers/35844776)
+
+**Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *aiDM 2018*, 2018.
+:::
+
+::: {.publication-item}
+### [Data Stream Analysis of Online Activities](https://researchmap.jp/koki-kawabata/published_papers/35844775)
+
+**Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *IEEE iThings/GreenCom/CPSCom/SmartData 2018*, 925–926, 2018.
 :::
 :::
 
@@ -56,33 +104,63 @@ Tasuku Kimura, Yasuko Matsubara, **Koki Kawabata**, and Yasushi Sakurai. *KDD 20
 
 ::: {.publication-list}
 ::: {.publication-item}
-### Automatic Mining of Complex Event Streams
+### [エントロピーに基づく大規模イベントデータのための異常検知アルゴリズム](https://researchmap.jp/koki-kawabata/published_papers/53525709)
 
-Kota Nakamura, Yasuko Matsubara, **Koki Kawabata**, Yuhei Umeda, Yuichiro Wada, and Yasushi Sakurai. *IPSJ Transactions on Databases*, 14(4), 2021.
+栢野 智, 松原 靖子, **川畑 光希**, 櫻井 保志. *情報処理学会論文誌データベース*, 19(1), 106–118, 2026.
 :::
 
 ::: {.publication-item}
-### Non-Linear Mining of Social Activities in Tensor Streams
+### [偏向型テンソルストリームのための多方向特徴自動抽出とリアルタイムサイバー攻撃検出への応用](https://researchmap.jp/koki-kawabata/published_papers/53525702)
 
-**Koki Kawabata**, Yasuko Matsubara, Takato Honda, and Yasushi Sakurai. *IPSJ Transactions on Databases*, 14(3), 2021.
+中村 航大, **川畑 光希**, 田中 駿吾, 松原 靖子, 櫻井 保志. *情報処理学会論文誌データベース*, 19(1), 21–30, 2026.
 :::
 
 ::: {.publication-item}
-### Real-time Forecasting of Co-evolving Epidemics
+### [多次元時系列データのネットワークを基にした欠損値補間手法](https://researchmap.jp/koki-kawabata/published_papers/50224113)
 
-Tasuku Kimura, Yasuko Matsubara, **Koki Kawabata**, and Yasushi Sakurai. *IPSJ Transactions on Databases*, 14(2), 2021.
+小幡 紘平, **川畑 光希**, 松原 靖子, 櫻井 保志. *情報処理学会論文誌データベース*, 18(2), 18–31, 2025.
 :::
 
 ::: {.publication-item}
-### Multi-aspect Tensor Mining for Event Forecasting
+### [大規模webデータストリームに対する流行の拡散パターンの抽出手法](https://researchmap.jp/koki-kawabata/published_papers/50224107)
 
-Takato Honda, Yasuko Matsubara, **Koki Kawabata**, and Yasushi Sakurai. *IPSJ Transactions on Databases*, 13(1), 2020.
+東口 慎吾, 松原 靖子, **川畑 光希**, 櫻井 保志. *情報処理学会論文誌データベース*, 17(2), 12–27, 2024.
 :::
 
 ::: {.publication-item}
-### An Online Algorithm for Mining Data Streams
+### [時系列データの自動ネットワーク構造検出アルゴリズム](https://researchmap.jp/koki-kawabata/published_papers/50224096)
 
-**Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *IPSJ Transactions on Databases*, 11(1), 2018.
+小幡 紘平, 松原 靖子, **川畑 光希**, 中村 航大, 櫻井 保志. *情報処理学会論文誌データベース*, 16(1), 1–13, 2023.
+:::
+
+::: {.publication-item}
+### [複合イベントストリームのための特徴自動抽出](https://researchmap.jp/koki-kawabata/published_papers/35848523)
+
+中村 航大, 松原 靖子, **川畑 光希**, 梅田 裕平, 和田 裕一郎, 櫻井 保志. *情報処理学会論文誌データベース*, 14(4), 24–35, 2021.
+:::
+
+::: {.publication-item}
+### [オンライン活動データストリームのための非線形モデル解析](https://researchmap.jp/koki-kawabata/published_papers/35848537)
+
+**川畑 光希**, 松原 靖子, 本田 崇人, 櫻井 保志. *情報処理学会論文誌データベース*, 14(3), 30–41, 2021.
+:::
+
+::: {.publication-item}
+### [大規模疫病データのための将来予測アルゴリズム](https://researchmap.jp/koki-kawabata/published_papers/35848552)
+
+木村 輔, 松原 靖子, **川畑 光希**, 櫻井 保志. *情報処理学会論文誌データベース*, 14(2), 10–19, 2021.
+:::
+
+::: {.publication-item}
+### [大規模時系列テンソルによる多角的イベント予測](https://researchmap.jp/koki-kawabata/published_papers/35848567)
+
+本田 崇人, 松原 靖子, **川畑 光希**, 櫻井 保志. *情報処理学会論文誌データベース*, 13(1), 8–19, 2020.
+:::
+
+::: {.publication-item}
+### [自動パターン検出のためのストリームアルゴリズム](https://researchmap.jp/koki-kawabata/published_papers/50547649)
+
+**川畑 光希**, 松原 靖子, 櫻井 保志. *情報処理学会論文誌データベース*, 11(1), 1–10, 2018.
 :::
 :::
 
