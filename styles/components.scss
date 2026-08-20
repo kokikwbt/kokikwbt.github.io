@@ -309,7 +309,7 @@ main.content h2 {
   width: 0.42rem;
   height: 0.42rem;
   border-radius: 50%;
-  background: var(--site-accent);
+  background: var(--site-bullet);
   content: "";
 }
 
@@ -318,6 +318,19 @@ main.content h2 {
   max-width: 920px;
   font-size: 1.05rem;
   line-height: 1.35;
+}
+
+.publication-item h3 a {
+  color: var(--site-link);
+  text-decoration-color: var(--site-border-strong);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+.publication-item h3 a:hover,
+.publication-item h3 a:focus-visible {
+  color: var(--site-primary);
+  text-decoration-color: currentColor;
 }
 
 .publication-item p {
