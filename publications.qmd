@@ -6,9 +6,9 @@ page-layout: article
 
 <p class="page-lead">Publications grouped by publication type.</p>
 
-## International Conference and Workshop Papers
+## International Conference and Workshop Papers {.category-heading .conference-heading}
 
-::: {.publication-list}
+::: {.publication-list .conference-list}
 ::: {.publication-item}
 ### [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://doi.org/10.1145/3770854.3780164)
 
@@ -100,9 +100,9 @@ Kota Nakamura, Yasuko Matsubara, **Koki Kawabata**, and Yasushi Sakurai. [CEUR W
 :::
 :::
 
-## Student Workshop Papers
+## Student Workshop Papers {.category-heading .student-heading}
 
-::: {.publication-list}
+::: {.publication-list .student-list}
 ::: {.publication-item}
 ### [Entropy-Based Anomaly Detection in Evolving Graph Streams](https://researchmap.jp/koki-kawabata/published_papers/54268356)
 
@@ -116,9 +116,9 @@ Shingo Higashiguchi. *The Web Conference 2024 Companion*, 1194–1197, 2024.
 :::
 :::
 
-## Domestic Journal Articles
+## Domestic Journal Articles {.category-heading .domestic-heading}
 
-::: {.publication-list}
+::: {.publication-list .domestic-list}
 ::: {.publication-item}
 ### [エントロピーに基づく大規模イベントデータのための異常検知アルゴリズム](https://researchmap.jp/koki-kawabata/published_papers/53525709)
 
