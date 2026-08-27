@@ -1,25 +1,96 @@
 ---
 title: "Research"
-description: "Research themes in streaming data, tensor methods, anomaly detection, and time-series analysis."
 page-layout: article
 ---
 
-<p class="page-lead">I study algorithms that reveal structure and change in large, continuously evolving datasets.</p>
+<p class="page-lead research-lead">I study data mining and machine learning for structured data that evolve over time.</p>
 
-## Data streams and time series
+::: {.research-statement}
+<span class="research-label">Research vision</span>
 
-Real-world data are rarely static. Sensor measurements, event logs, online activity, and epidemiological observations evolve at multiple timescales. My research develops online methods that summarize these streams, detect regime changes, and forecast their future behavior.
+## From complex observations to useful knowledge
 
-## Tensor and multi-aspect analysis
-
-Many datasets simultaneously involve entities, time, location, and other interacting dimensions. I use tensor representations to capture these relationships while keeping the resulting models scalable and interpretable.
-
-## Anomaly detection
-
-Anomalies in complex systems are often small, transient, and mixed with strong seasonal or structural variation. I investigate methods that distinguish meaningful deviations from ordinary evolution in cybersecurity, event data, and other streaming applications.
-
-## Current keywords
-
-::: {.keyword-list}
-`data mining`{.keyword} `tensor decomposition`{.keyword} `anomaly detection`{.keyword} `data-stream processing`{.keyword} `time-series analysis`{.keyword}
+Modern systems produce observations involving many entities, attributes, and time-varying relationships. My research follows three connected steps: represent this structure, learn how it changes as new data arrive, and use the resulting model to detect unusual behavior or predict future events.
 :::
+
+## Research areas {.research-section-title}
+
+::: {.research-area-list}
+::: {.research-area}
+<span class="research-number">01</span>
+
+::: {.research-area-content}
+### Tensor and dynamic network mining
+
+The first challenge is representation. Datasets involving entities, time, location, and context are naturally expressed as tensors or temporal graphs. I develop models that preserve these interacting dimensions while extracting components and network structures that can be interpreted.
+:::
+:::
+
+::: {.research-area}
+<span class="research-number">02</span>
+
+::: {.research-area-content}
+### Data streams and time-series analysis
+
+The second challenge is learning over time. Sensor readings, event logs, online activity, and epidemiological observations may change at several timescales. I study online methods that update efficiently as observations arrive, identify recurring temporal patterns, and track structural change without repeatedly processing the full history.
+:::
+:::
+
+::: {.research-area}
+<span class="research-number">03</span>
+
+::: {.research-area-content}
+### Anomaly detection and prediction
+
+The final challenge is inference. Using the learned temporal and structural patterns, I develop methods that distinguish meaningful anomalies from ordinary variation and predict future behavior. The goal is not only to produce a score or forecast, but also to explain which entities, relationships, or temporal patterns support it.
+:::
+:::
+:::
+
+::: {.research-details}
+::: {.research-detail}
+## Design principles
+
+Across these three stages, I combine probabilistic modeling, matrix and tensor factorization, network analysis, and streaming algorithms. The methods are designed around three principles:
+
+- **Scalability** to large, continuously arriving datasets
+- **Adaptivity** to changing patterns and operating conditions
+- **Interpretability** of the structures and anomalies identified by the model
+:::
+
+::: {.research-detail}
+## Evaluation and applications
+
+I evaluate the methods on synthetic data with controlled properties and on real-world datasets from domains including:
+
+- sensor and event streams
+- social and interaction networks
+- cybersecurity systems
+- epidemiological time series
+- heterogeneous communication graphs
+:::
+:::
+
+## Selected work {.research-section-title}
+
+::: {.selected-work-list}
+::: {.selected-work}
+### [Interpretable Dynamic Network Modeling of Tensor Time Series via Kronecker Time-Varying Graphical Lasso](https://doi.org/10.1145/3774904.3792608)
+
+A structured graphical model that estimates how networks within tensor time series change over time. *The Web Conference 2026.*
+:::
+
+::: {.selected-work}
+### [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://doi.org/10.1145/3770854.3780164)
+
+An online method for modeling multi-sensor streams and updating time-to-event predictions as observations arrive. *KDD 2026.*
+:::
+
+::: {.selected-work}
+### [RoleMine: Mining Behavioral Patterns in Heterogeneous Call Graphs](https://doi.org/10.1145/3799682.3840789)
+
+A role–topic model that represents attributed interaction graphs and identifies anomalous nodes with interpretable evidence. *CIKM 2026 (to appear).*
+:::
+:::
+
+[View all publications →](publications.qmd){.research-publications-link}

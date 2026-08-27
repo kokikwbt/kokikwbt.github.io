@@ -1,84 +1,85 @@
 ---
 title: "Koki Kawabata"
+pagetitle: "Koki Kawabata"
+description: "Koki Kawabata — Assistant Professor at SANKEN, The University of Osaka. Research in data mining and machine learning."
 page-layout: full
-title-block-banner: false
 toc: false
 ---
 
-::: {.hero}
-::: {.hero-copy}
-<p class="eyebrow">DATA MINING · MACHINE LEARNING</p>
-
-<h1 class="hero-title">Finding structure in evolving data</h1>
-
-I develop scalable methods for understanding patterns, changes, and anomalies in complex data streams.
-
-<p class="hero-role">Assistant Professor · SANKEN, The University of Osaka</p>
-
-<div class="hero-actions">
-  <a href="./research.html" class="btn btn-primary btn-lg">Explore research</a>
-  <a href="./publications.html" class="btn btn-outline-primary btn-lg">View publications</a>
-</div>
-:::
-
-::: {.hero-visual aria-hidden="true"}
 ```{=html}
-<div class="tensor-stack">
-  <div class="tensor-slice">
-    <span></span><span></span><span class="active"></span><span></span>
-    <span></span><span></span><span></span><span></span>
-    <span></span><span class="active"></span><span></span><span></span>
-    <span></span><span></span><span></span><span></span>
-  </div>
-  <div class="tensor-slice">
-    <span></span><span></span><span></span><span></span>
-    <span class="active"></span><span></span><span></span><span></span>
-    <span></span><span></span><span></span><span class="active"></span>
-    <span></span><span></span><span></span><span></span>
-  </div>
-  <div class="tensor-slice">
-    <span></span><span></span><span></span><span></span>
-    <span></span><span></span><span class="active"></span><span></span>
-    <span></span><span></span><span></span><span></span>
-    <span></span><span class="active"></span><span></span><span></span>
-  </div>
-</div>
+<style>#title-block-header { display: none; }</style>
 ```
+
+::: {.academic-home}
+::: {.academic-intro}
+::: {.academic-profile}
+# Koki Kawabata
+
+<p class="academic-name-ja">川畑 光希</p>
+
+<p class="academic-position">Assistant Professor<br><a href="https://www.sanken.osaka-u.ac.jp/">SANKEN, The University of Osaka</a></p>
+
+::: {.academic-links}
+[Email](about.qmd#contact) · [Google Scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=Koki+Kawabata) · [GitHub](https://github.com/kokikwbt) · [ORCID](https://orcid.org/0000-0003-4202-4513)
 :::
 :::
 
-## Research directions {.section-heading}
+::: {.academic-summary}
+## About
 
-::: {.research-grid}
-::: {.research-card}
-<span class="card-index">01</span>
+I am an Assistant Professor at SANKEN, The University of Osaka. My research focuses on **data mining and machine learning for complex, evolving data**.
 
-### Streaming data
+I develop scalable and interpretable methods for data streams, time series, tensors, and dynamic networks, with applications including anomaly detection, event analysis, and forecasting.
 
-Learning patterns and structural changes from data that arrive continuously.
+[Research overview](research.qmd) &nbsp;·&nbsp; [About and contact](about.qmd)
+:::
 :::
 
-::: {.research-card}
-<span class="card-index">02</span>
+::: {.academic-section}
+## Research interests
 
-### Tensor methods
+::: {.interest-list}
+::: {.interest-item}
+### Data streams and time series
 
-Modeling multi-aspect data with scalable and interpretable representations.
+Online modeling, change detection, and forecasting for continuously evolving data.
 :::
 
-::: {.research-card}
-<span class="card-index">03</span>
+::: {.interest-item}
+### Tensor and network mining
 
+Scalable methods for multi-aspect data and dynamic interaction structures.
+:::
+
+::: {.interest-item}
 ### Anomaly detection
 
-Identifying subtle and evolving signals in complex real-world systems.
+Interpretable detection of unusual behavior in complex real-world systems.
 :::
 :::
+:::
 
-::: {.home-cta}
-## Research in motion
+::: {.academic-section}
+## Recent publications
 
-Current interests include temporal graphs, nonlinear tensor analysis, event streams, and real-time forecasting.
+::: {.home-publication}
+### [RoleMine: Mining Behavioral Patterns in Heterogeneous Call Graphs](https://doi.org/10.1145/3799682.3840789)
 
-[Read the research overview →](research.qmd)
+**Koki Kawabata**, Pedro Fidalgo, Mirela Cazalotto, Saranya Vijayakumar, Yasuko Matsubara, Yasushi Sakurai, and Christos Faloutsos. *CIKM 2026* (to appear).
+:::
+
+::: {.home-publication}
+### [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://doi.org/10.1145/3770854.3780164)
+
+Kota Nakamura, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *KDD 2026*.
+:::
+
+::: {.home-publication}
+### [Interpretable Dynamic Network Modeling of Tensor Time Series via Kronecker Time-Varying Graphical Lasso](https://doi.org/10.1145/3774904.3792608)
+
+Shingo Higashiguchi, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *The Web Conference 2026*.
+:::
+
+[All publications →](publications.qmd){.all-publications-link}
+:::
 :::

@@ -10,6 +10,12 @@ page-layout: article
 
 ::: {.publication-list}
 ::: {.publication-item}
+### [RoleMine: Mining Behavioral Patterns in Heterogeneous Call Graphs](https://doi.org/10.1145/3799682.3840789)
+
+**Koki Kawabata**, Pedro Fidalgo, Mirela Cazalotto, Saranya Vijayakumar, Yasuko Matsubara, Yasushi Sakurai, and Christos Faloutsos. [CIKM 2026]{.venue-highlight} (to appear), 2026.
+:::
+
+::: {.publication-item}
 ### [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://doi.org/10.1145/3770854.3780164)
 
 Kota Nakamura, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. [KDD 2026]{.venue-highlight}, 1089–1100, 2026.
