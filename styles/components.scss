@@ -62,12 +62,17 @@ body {
   line-height: 1.65;
 }
 
-.academic-position a,
+.academic-position a {
+  color: var(--site-text);
+  text-decoration-color: var(--site-border-strong);
+  text-underline-offset: 0.22em;
+}
+
 .academic-links a,
 .academic-summary a,
 .all-publications-link {
-  color: var(--site-text);
-  text-decoration-color: var(--site-border-strong);
+  color: var(--site-link);
+  text-decoration-color: color-mix(in srgb, var(--site-link) 45%, transparent);
   text-underline-offset: 0.22em;
 }
 
@@ -658,9 +663,9 @@ main.content .research-detail h2 {
 .venue-highlight {
   padding: 0.08rem 0.38rem;
   border-radius: 0.3rem;
-  background: color-mix(in srgb, var(--site-accent) 15%, transparent);
+  background: var(--site-venue-bg);
   box-decoration-break: clone;
-  color: var(--site-accent);
+  color: var(--site-venue-text);
   font-weight: 680;
   -webkit-box-decoration-break: clone;
 }
