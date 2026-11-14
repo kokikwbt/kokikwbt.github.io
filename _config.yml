@@ -1,0 +1,167 @@
+title: blank
+first_name: Koki
+middle_name:
+last_name: Kawabata
+lang: en
+url: https://kokikwbt.github.io
+baseurl: ""
+description: "Koki Kawabata — data mining, tensor decomposition, anomaly detection, data streams, and time-series analysis."
+footer_text: >-
+  Powered by <a href="https://jekyllrb.com/">Jekyll</a> and
+  <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+keywords: data mining, tensor decomposition, anomaly detection, data streams, time series
+last_updated: false
+navbar_fixed: true
+footer_fixed: false
+max_width: 960px
+back_to_top: false
+contact_note: ""
+
+theme: al_folio_core
+al_folio:
+  api_version: 1
+  style_engine: tailwind
+  tailwind:
+    version: 4.1.18
+    preflight: false
+    css_entry: assets/tailwind/app.css
+  distill:
+    engine: distillpub-template
+    source: al-org-dev/distill-template#al-folio
+    allow_remote_loader: false
+  features:
+    cv:
+      enabled: false
+    distill:
+      enabled: false
+  compat:
+    bootstrap:
+      enabled: false
+  upgrade:
+    channel: stable
+    auto_apply_safe_fixes: false
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+exclude:
+  - AGENTS.md
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE.al-folio
+  - papers.bib
+  - .bundle
+  - .ruby-version
+  - vendor
+  - scripts
+  - "*.qmd"
+  - _quarto.yml
+  - styles
+plugins:
+  - jekyll-cache-bust
+  - al_folio_core
+  - al_icons
+  - al_citations
+  - jekyll/scholar
+  - jekyll-socials
+  - jekyll-regex-replace
+  - jekyll-3rd-party-libraries
+  - jekyll-sitemap
+  - jekyll-link-attributes
+
+sass:
+  style: compressed
+
+scholar:
+  last_name: [Kawabata, 川畑]
+  first_name: [Koki, K., 光希]
+  style: apa
+  locale: en
+  source: .
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters: [latex, smallcaps, superscript]
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_link: Details
+  query: "@*"
+  sort_by: source_order
+  order: ascending
+  group_by: year
+  group_order: descending
+
+bib_search: true
+max_author_limit:
+more_authors_animation_delay: 10
+enable_publication_thumbnails: true
+enable_publication_badges:
+  altmetric: false
+  dimensions: false
+  google_scholar: false
+  inspirehep: false
+filtered_bibtex_keywords:
+  - abbr
+  - additional_info
+  - bibtex_show
+  - html
+  - selected
+  - source_author_display
+  - source_order
+  - language
+  - category
+
+enable_darkmode: true
+enable_navbar_social: false
+search_enabled: false
+socials_in_search: false
+posts_in_search: false
+enable_google_verification: false
+enable_bing_verification: false
+enable_cookie_consent: false
+enable_masonry: false
+enable_math: false
+enable_tooltips: false
+enable_medium_zoom: false
+enable_progressbar: false
+enable_video_embedding: false
+serve_og_meta: true
+serve_schema_org: true
+newsletter:
+  enabled: false
+external_sources: []
+pagination:
+  enabled: false
+related_blog_posts:
+  enabled: false
+external_links:
+  enabled: true
+  rel: external noopener
+  target: _blank
+
+third_party_libraries:
+  download: false
+  fontawesome:
+    integrity:
+      css: "sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@{{version}}/css/all.min.css"
+    version: "7.2.0"
+  academicons:
+    integrity:
+      css: "sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/academicons@{{version}}/css/academicons.min.css"
+    version: "1.9.5"
+  google_fonts:
+    url:
+      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+  scholar-icons:
+    integrity:
+      css: "sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/scholar-icons@{{version}}/css/scholar-icons.css"
+    version: "1.0.3"
+
