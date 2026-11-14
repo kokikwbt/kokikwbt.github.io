@@ -1,10 +1,8 @@
 ---
-layout: page
+layout: single
 permalink: /about.html
 title: About
-description: About Koki Kawabata.
-nav: true
-nav_order: 3
+author_profile: true
 ---
 
 I am an Assistant Professor at SANKEN, The University of Osaka, working on data mining and machine learning for complex, evolving data.
@@ -22,7 +20,7 @@ The University of Osaka<br>
 ## Contact
 {: #contact}
 
-<button type="button" class="email-reveal btn btn-sm z-depth-0" data-email-reveal aria-label="Reveal email address">Reveal email address</button>
+<button type="button" class="email-reveal btn btn--inverse" data-email-reveal aria-label="Reveal email address">Reveal email address</button>
 
 <noscript><p class="email-fallback">koki [at] sanken [dot] osaka-u [dot] ac [dot] jp</p></noscript>
 
