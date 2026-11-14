@@ -1,0 +1,26 @@
+{% include base_path %}
+{% assign author = site.author %}
+<div itemscope itemtype="https://schema.org/Person" class="academic-profile">
+  {% if author.avatar and author.avatar != empty %}
+  <div class="author__avatar">
+    <img src="{{ author.avatar | relative_url }}" alt="{{ author.name | escape }}" fetchpriority="high">
+  </div>
+  {% endif %}
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name"><a href="{{ '/' | relative_url }}">{{ author.name }}</a></h3>
+    <p class="author__native-name">川畑 光希</p>
+    <p class="author__bio">Assistant Professor<br><a href="https://www.sanken.osaka-u.ac.jp/">SANKEN, The University of Osaka</a></p>
+  </div>
+  <div class="author__urls-wrapper">
+    <button type="button" class="btn btn--inverse">Links</button>
+    <ul class="author__urls social-icons">
+      <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>Osaka, Japan</li>
+      <li><a href="{{ '/about.html#contact' | relative_url }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Contact</a></li>
+      <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw icon-pad-right" aria-hidden="true"></i>Google Scholar</a></li>
+      <li><a href="https://researchmap.jp/koki-kawabata"><i class="fas fa-fw fa-graduation-cap icon-pad-right" aria-hidden="true"></i>researchmap</a></li>
+      <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right" aria-hidden="true"></i>ORCID</a></li>
+      <li><a href="https://dblp.org/pid/219/8132"><i class="ai ai-dblp ai-fw icon-pad-right" aria-hidden="true"></i>DBLP</a></li>
+      <li><a href="https://github.com/kokikwbt"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
+    </ul>
+  </div>
+</div>
