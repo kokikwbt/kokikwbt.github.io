@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: single
 permalink: /research.html
 title: Research
-nav: true
-nav_order: 1
+author_profile: true
 ---
 
 I study data mining and machine learning for structured data that evolve over time.
