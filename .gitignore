@@ -1,6 +1,11 @@
 /_site/
 /.quarto/
 /.DS_Store
+/.bundle/
+/vendor/
+/.jekyll-cache/
+/.sass-cache/
+/.jekyll-metadata
 
 
 **/*.quarto_ipynb
