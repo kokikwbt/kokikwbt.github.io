@@ -90,12 +90,40 @@
   display: block;
   padding: 0.3em 0.45em;
   border-radius: 3px;
-  background: var(--site-badge-bg);
+  background: var(--venue-tag-bg, var(--site-badge-bg));
   color: var(--site-badge-fg);
   font-size: 11.5px;
   font-weight: 700;
   line-height: 1.3;
   overflow-wrap: anywhere;
+}
+/* Venue colors share the site's turquoise and the selected illustration palette. */
+.venue-tag[data-venue="KDD"] {
+  --venue-tag-bg: #81d8d0;
+}
+.venue-tag[data-venue="WWW"] {
+  --venue-tag-bg: #9cc7ef;
+}
+.venue-tag[data-venue~="CIKM"] {
+  --venue-tag-bg: #ed9189;
+}
+.venue-tag[data-venue="NeurIPS"] {
+  --venue-tag-bg: #c6b0ed;
+}
+.venue-tag[data-venue="TOD"] {
+  --venue-tag-bg: #eed7b2;
+}
+.venue-tag[data-venue~="VLDB"] {
+  --venue-tag-bg: #b4d697;
+}
+.venue-tag[data-venue="aiDM"] {
+  --venue-tag-bg: #b7c7d6;
+}
+.venue-tag[data-venue="CEUR"] {
+  --venue-tag-bg: #deb1cd;
+}
+.venue-tag[data-venue~="IEEE"] {
+  --venue-tag-bg: #dcae8c;
 }
 .publication-year {
   display: block;
