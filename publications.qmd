@@ -12,7 +12,7 @@ page-layout: article
 ::: {.publication-item}
 ### [RoleMine: Mining Behavioral Patterns in Heterogeneous Call Graphs](https://doi.org/10.1145/3799682.3840789)
 
-**Koki Kawabata**, Pedro Fidalgo, Mirela Cazalotto, Saranya Vijayakumar, Yasuko Matsubara, Yasushi Sakurai, and Christos Faloutsos. [CIKM 2026]{.venue-highlight} (to appear), 2026.
+**Koki Kawabata**, Pedro Fidalgo, Mirela Cazzolato, Saranya Vijayakumar, Yasuko Matsubara, Yasushi Sakurai, and Christos Faloutsos. [CIKM 2026]{.venue-highlight}, 2093–2104, 2026.
 :::
 
 ::: {.publication-item}

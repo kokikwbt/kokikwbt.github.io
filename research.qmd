@@ -89,7 +89,7 @@ An online method for modeling multi-sensor streams and updating time-to-event pr
 ::: {.selected-work}
 ### [RoleMine: Mining Behavioral Patterns in Heterogeneous Call Graphs](https://doi.org/10.1145/3799682.3840789)
 
-A role–topic model that represents attributed interaction graphs and identifies anomalous nodes with interpretable evidence. *CIKM 2026 (to appear).*
+A role–topic model that represents attributed interaction graphs and identifies anomalous nodes with interpretable evidence. *CIKM 2026.*
 :::
 :::
 
