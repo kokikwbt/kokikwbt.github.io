@@ -1,4 +1,4 @@
-name: Publish al-folio website
+name: Publish AcademicPages website
 
 on:
   push:
