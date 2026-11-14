@@ -11,7 +11,7 @@
 {%- endif -%}
 <article class="publication-item" id="{{ entry.key | escape }}">
   <div class="publication-marker">
-    <span class="venue-tag">{{ publication_badge | escape }}</span>
+    <span class="venue-tag" data-venue="{{ publication_badge | escape }}">{{ publication_badge | escape }}</span>
     <small class="publication-year">{{ entry.year | escape }}</small>
   </div>
   <div class="publication-body">
