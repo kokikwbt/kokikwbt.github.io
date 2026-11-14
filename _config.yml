@@ -1,78 +1,95 @@
-title: blank
+title: Koki Kawabata
+name: Koki Kawabata
 first_name: Koki
 middle_name:
 last_name: Kawabata
+title_separator: "|"
+locale: en-US
 lang: en
+timezone: Asia/Tokyo
 url: https://kokikwbt.github.io
 baseurl: ""
+repository: kokikwbt/kokikwbt.github.io
 description: "Koki Kawabata — data mining, tensor decomposition, anomaly detection, data streams, and time-series analysis."
-footer_text: >-
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a> and
-  <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
 keywords: data mining, tensor decomposition, anomaly detection, data streams, time series
-last_updated: false
-navbar_fixed: true
-footer_fixed: false
-max_width: 960px
-back_to_top: false
-contact_note: ""
 
-theme: al_folio_core
-al_folio:
-  api_version: 1
-  style_engine: tailwind
-  tailwind:
-    version: 4.1.18
-    preflight: false
-    css_entry: assets/tailwind/app.css
-  distill:
-    engine: distillpub-template
-    source: al-org-dev/distill-template#al-folio
-    allow_remote_loader: false
-  features:
-    cv:
-      enabled: false
-    distill:
-      enabled: false
-  compat:
-    bootstrap:
-      enabled: false
-  upgrade:
-    channel: stable
-    auto_apply_safe_fixes: false
+remote_theme: academicpages/academicpages.github.io@8c57e1ae5da379512eb11165257fba02664b8531
+ignore_theme_config: true
+site_theme: default
+
+author:
+  name: Koki Kawabata
+  avatar:
+  bio: Assistant Professor
+  location: Osaka, Japan
+  employer: SANKEN, The University of Osaka
+  uri: https://rd.iai.osaka-u.ac.jp/ja/741f1b08cc6f3c12.html
+  contact: /about.html#contact
+  googlescholar: https://scholar.google.com/citations?view_op=search_authors&mauthors=Koki+Kawabata
+  github: kokikwbt
+  orcid: https://orcid.org/0000-0003-4202-4513
+  researchmap: https://researchmap.jp/koki-kawabata
+  dblp: https://dblp.org/pid/219/8132
+  twitter: kokikwbt
+  linkedin: kokikwbt
+
+# These keys match papers.bib; YAML order defines the section order.
+publication_category:
+  international:
+    title: Conference Papers
+  domestic:
+    title: Journal Articles
+  student:
+    title: Student Workshop Papers
+
+breadcrumbs: false
+read_more: disabled
+words_per_minute: 160
+future: true
+atom_feed:
+  hide: true
+comments:
+  provider: false
+analytics:
+  provider: false
 
 markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
-exclude:
-  - AGENTS.md
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENSE.al-folio
-  - papers.bib
-  - .bundle
-  - .ruby-version
-  - vendor
-  - scripts
-  - "*.qmd"
-  - _quarto.yml
-  - styles
+  hard_wrap: false
+  auto_ids: true
+  header_links: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+
 plugins:
-  - jekyll-cache-bust
-  - al_folio_core
-  - al_icons
-  - al_citations
+  - jekyll-remote-theme
   - jekyll/scholar
-  - jekyll-socials
-  - jekyll-regex-replace
-  - jekyll-3rd-party-libraries
   - jekyll-sitemap
-  - jekyll-link-attributes
 
 sass:
+  sass_dir: _sass
   style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      share: false
+      comments: false
+      related: false
+  - scope:
+      path: publications.md
+      type: pages
+    values:
+      layout: archive
+      author_profile: true
 
 scholar:
   last_name: [Kawabata, 川畑]
@@ -90,18 +107,8 @@ scholar:
   query: "@*"
   sort_by: source_order
   order: ascending
-  group_by: year
-  group_order: descending
+  group_by: none
 
-bib_search: true
-max_author_limit:
-more_authors_animation_delay: 10
-enable_publication_thumbnails: true
-enable_publication_badges:
-  altmetric: false
-  dimensions: false
-  google_scholar: false
-  inspirehep: false
 filtered_bibtex_keywords:
   - abbr
   - additional_info
@@ -113,55 +120,21 @@ filtered_bibtex_keywords:
   - language
   - category
 
-enable_darkmode: true
-enable_navbar_social: false
-search_enabled: false
-socials_in_search: false
-posts_in_search: false
-enable_google_verification: false
-enable_bing_verification: false
-enable_cookie_consent: false
-enable_masonry: false
-enable_math: false
-enable_tooltips: false
-enable_medium_zoom: false
-enable_progressbar: false
-enable_video_embedding: false
-serve_og_meta: true
-serve_schema_org: true
-newsletter:
-  enabled: false
-external_sources: []
-pagination:
-  enabled: false
-related_blog_posts:
-  enabled: false
-external_links:
-  enabled: true
-  rel: external noopener
-  target: _blank
-
-third_party_libraries:
-  download: false
-  fontawesome:
-    integrity:
-      css: "sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c="
-    url:
-      css: "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@{{version}}/css/all.min.css"
-    version: "7.2.0"
-  academicons:
-    integrity:
-      css: "sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw="
-    url:
-      css: "https://cdn.jsdelivr.net/npm/academicons@{{version}}/css/academicons.min.css"
-    version: "1.9.5"
-  google_fonts:
-    url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
-  scholar-icons:
-    integrity:
-      css: "sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY="
-    url:
-      css: "https://cdn.jsdelivr.net/npm/scholar-icons@{{version}}/css/scholar-icons.css"
-    version: "1.0.3"
-
+exclude:
+  - AGENTS.md
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE.academicpages
+  - LICENSE.al-folio
+  - papers.bib
+  - .bundle
+  - .ruby-version
+  - vendor
+  - scripts
+  - node_modules
+  - package.json
+  - package-lock.json
+  - "*.qmd"
+  - _quarto.yml
+  - styles
