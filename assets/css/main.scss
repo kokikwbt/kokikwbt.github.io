@@ -251,3 +251,19 @@ html[data-theme="dark"] .venue-tag {
     animation: none;
   }
 }
+
+// Keep the footer in document flow and clear the theme's inline body spacing.
+.page__footer {
+  position: relative;
+  bottom: auto;
+}
+body {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+html[data-theme="dark"] {
+  --global-link-color: #8cc8d7;
+  --global-link-color-hover: #b8e1ea;
+  --global-link-color-visited: #a9ced8;
+}
