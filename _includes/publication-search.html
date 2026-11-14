@@ -1,0 +1,87 @@
+<div class="publication-search publication-search-controls" id="publication-search-controls" hidden>
+  <label for="publication-search">Search publications</label>
+  <div class="publication-search-inputs">
+    <input id="publication-search" type="search" placeholder="Title, author, venue, year" autocomplete="off" spellcheck="false" aria-describedby="publication-search-status">
+    <button id="publication-search-clear" type="button" aria-label="Clear publication search" hidden>Clear</button>
+  </div>
+  <p id="publication-search-status" class="publication-search-status" role="status" aria-live="polite" aria-atomic="true"></p>
+  <p id="publication-search-empty" class="publication-search-empty" hidden>No publications match your search.</p>
+</div>
+<script>
+  (() => {
+    const initializePublicationSearch = () => {
+      const controls = document.getElementById("publication-search-controls");
+      const input = document.getElementById("publication-search");
+      const clearButton = document.getElementById("publication-search-clear");
+      const status = document.getElementById("publication-search-status");
+      const emptyMessage = document.getElementById("publication-search-empty");
+      const sections = Array.from(document.querySelectorAll(".publication-section"));
+      if (!controls || !input || !clearButton || !status || !emptyMessage || input.dataset.publicationSearchReady === "true") return;
+
+      const normalize = (value) => value.normalize("NFKC").toLowerCase().replace(/\s+/g, " ").trim();
+      const fields = ".publication-title, .publication-authors, .publication-venue, .publication-year, .venue-tag";
+      const rows = sections.flatMap((section) => Array.from(section.querySelectorAll("ol.bibliography > li")).map((row) => ({
+        row,
+        section,
+        text: normalize(Array.from(row.querySelectorAll(fields)).map((field) => field.textContent).join(" "))
+      })));
+      if (rows.length === 0) return;
+
+      input.dataset.publicationSearchReady = "true";
+      const sectionIds = sections.map((section) => section.id).filter(Boolean);
+      if (sectionIds.length > 0) input.setAttribute("aria-controls", sectionIds.join(" "));
+
+      const update = () => {
+        const query = normalize(input.value);
+        const terms = query ? query.split(" ") : [];
+        let shown = 0;
+        rows.forEach((item) => {
+          const matches = terms.every((term) => item.text.includes(term));
+          item.row.hidden = !matches;
+          if (matches) shown += 1;
+        });
+
+        sections.forEach((section) => {
+          const sectionRows = rows.filter((item) => item.section === section);
+          section.hidden = !sectionRows.some((item) => !item.row.hidden);
+          section.querySelectorAll("ol.bibliography").forEach((list) => {
+            const listRows = Array.from(list.children).filter((child) => child.tagName === "LI");
+            const empty = !listRows.some((row) => !row.hidden);
+            list.hidden = empty;
+            const yearHeading = list.previousElementSibling;
+            if (yearHeading && /^H[1-6]$/.test(yearHeading.tagName) && yearHeading.classList.contains("bibliography")) {
+              yearHeading.hidden = empty;
+            }
+          });
+        });
+
+        status.textContent = `${shown} of ${rows.length} publications shown.`;
+        emptyMessage.hidden = shown !== 0;
+        clearButton.hidden = input.value.length === 0;
+      };
+
+      const clear = () => {
+        input.value = "";
+        update();
+        input.focus();
+      };
+
+      input.addEventListener("input", update);
+      input.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && input.value.length > 0) {
+          event.preventDefault();
+          clear();
+        }
+      });
+      clearButton.addEventListener("click", clear);
+      controls.hidden = false;
+      update();
+    };
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initializePublicationSearch, { once: true });
+    } else {
+      initializePublicationSearch();
+    }
+  })();
+</script>

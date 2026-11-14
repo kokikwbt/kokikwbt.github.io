@@ -1,15 +1,9 @@
 ---
-layout: about
-title: Home
+layout: single
+title: About me
 permalink: /
-subtitle: '川畑 光希 · Assistant Professor · <a href="https://www.sanken.osaka-u.ac.jp/">SANKEN, The University of Osaka</a>'
+author_profile: true
 description: "Koki Kawabata — Assistant Professor at SANKEN, The University of Osaka. Research in data mining and machine learning."
-selected_papers: false
-social: false
-announcements:
-  enabled: false
-latest_posts:
-  enabled: false
 ---
 
 I am an Assistant Professor at SANKEN, The University of Osaka. My research focuses on **data mining and machine learning for complex, evolving data**.
@@ -26,6 +20,8 @@ I develop scalable and interpretable methods for data streams, time series, tens
 
 ## Recent publications
 
-{% include selected_papers.liquid %}
+<div class="publication-section publication-section--recent">
+{% bibliography -f papers -q @*[selected=true] %}
+</div>
 
 [All publications →]({{ '/publications.html' | relative_url }})
