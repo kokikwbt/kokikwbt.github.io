@@ -10,6 +10,18 @@ page-layout: article
 
 ::: {.publication-list}
 ::: {.publication-item}
+### Missing-Aware Multi-Mode Dynamic Network Inference for Tensor Time Series
+
+Shingo Higashiguchi, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. [KDD 2027]{.venue-highlight} (to appear), 2027.
+:::
+
+::: {.publication-item}
+### Nonnegative Tensor Decomposition with Nonlinear Latent Dynamics under an Integrated-Intensity Observation Model
+
+Yuma Isaji, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. [KDD 2027]{.venue-highlight} (to appear), 2027.
+:::
+
+::: {.publication-item}
 ### [RoleMine: Mining Behavioral Patterns in Heterogeneous Call Graphs](https://doi.org/10.1145/3799682.3840789)
 
 **Koki Kawabata**, Pedro Fidalgo, Mirela Cazzolato, Saranya Vijayakumar, Yasuko Matsubara, Yasushi Sakurai, and Christos Faloutsos. [CIKM 2026]{.venue-highlight}, 2093–2104, 2026.

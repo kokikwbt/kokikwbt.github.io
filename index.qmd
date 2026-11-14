@@ -63,6 +63,18 @@ Interpretable detection of unusual behavior in complex real-world systems.
 ## Recent publications
 
 ::: {.home-publication}
+### Missing-Aware Multi-Mode Dynamic Network Inference for Tensor Time Series
+
+Shingo Higashiguchi, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *KDD 2027* (to appear).
+:::
+
+::: {.home-publication}
+### Nonnegative Tensor Decomposition with Nonlinear Latent Dynamics under an Integrated-Intensity Observation Model
+
+Yuma Isaji, **Koki Kawabata**, Yasuko Matsubara, and Yasushi Sakurai. *KDD 2027* (to appear).
+:::
+
+::: {.home-publication}
 ### [RoleMine: Mining Behavioral Patterns in Heterogeneous Call Graphs](https://doi.org/10.1145/3799682.3840789)
 
 **Koki Kawabata**, Pedro Fidalgo, Mirela Cazzolato, Saranya Vijayakumar, Yasuko Matsubara, Yasushi Sakurai, and Christos Faloutsos. *CIKM 2026*.
