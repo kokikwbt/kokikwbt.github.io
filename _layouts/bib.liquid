@@ -5,6 +5,7 @@
 {%- assign publication_badge = entry.abbr | publication_badge: publication_venue, entry.year -%}
 {%- assign publication_pages = entry.pages | replace: '--', '–' -%}
 {%- assign publication_note = entry.note | publication_display_text -%}
+{%- assign publication_acceptance = site.data.acceptance[entry.key] | publication_acceptance_text -%}
 {%- assign publication_doi_url = '' -%}
 {%- if entry.doi and entry.doi != '' -%}
   {%- assign publication_doi_url = entry.doi | prepend: 'https://doi.org/' -%}
@@ -18,7 +19,7 @@
     <h3 class="publication-title">{% if entry.url and entry.url != '' %}<a href="{{ entry.url | escape }}">{{ publication_title | escape }}</a>{% else %}{{ publication_title | escape }}{% endif %}</h3>
     <p class="publication-authors">{{ entry.source_author_display | publication_authors }}</p>
     <div class="publication-meta">
-      <span class="publication-venue">{{ publication_venue | escape }}</span>{% if entry.volume and entry.volume != '' %}, <span class="publication-volume">{{ entry.volume | escape }}{% if entry.number and entry.number != '' %}({{ entry.number | escape }}){% endif %}</span>{% elsif entry.number and entry.number != '' %}, <span class="publication-number">{{ entry.number | escape }}</span>{% endif %}{% if entry.pages and entry.pages != '' %}, <span class="publication-pages">{{ publication_pages | escape }}</span>{% endif %}{% if publication_note != '' %} <span class="publication-status">{{ publication_note | escape }}</span>{% endif %}
+      <span class="publication-venue">{{ publication_venue | escape }}</span>{% if entry.volume and entry.volume != '' %}, <span class="publication-volume">{{ entry.volume | escape }}{% if entry.number and entry.number != '' %}({{ entry.number | escape }}){% endif %}</span>{% elsif entry.number and entry.number != '' %}, <span class="publication-number">{{ entry.number | escape }}</span>{% endif %}{% if entry.pages and entry.pages != '' %}, <span class="publication-pages">{{ publication_pages | escape }}</span>{% endif %}{% if publication_note != '' %} <span class="publication-status">{{ publication_note | escape }}</span>{% endif %}{% if publication_acceptance != '' %} <span class="publication-acceptance">· {{ publication_acceptance | escape }}</span>{% endif %}
     </div>
     <div class="publication-links">
       {% if publication_doi_url != '' %}<a class="publication-link" href="{{ publication_doi_url | escape }}">DOI</a>{% endif %}
