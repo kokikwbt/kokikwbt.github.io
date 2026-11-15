@@ -396,3 +396,64 @@ button:focus-visible {
   background: var(--site-control-hover);
   color: var(--global-link-color-hover);
 }
+
+/* Compact award and funding lists on the About page. */
+.about-records {
+  margin: 0 0 1.3rem;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+  line-height: 1.45;
+}
+.page__content .about-records > li {
+  display: grid;
+  grid-template-columns: 4.8rem minmax(0, 1fr);
+  gap: 0.8rem;
+  margin: 0;
+  padding: 0.38rem 0;
+  list-style: none;
+}
+.page__content .about-funding > li {
+  grid-template-columns: 8.8rem minmax(0, 1fr);
+  padding: 0.5rem 0;
+}
+.about-record-date {
+  padding-top: 0.05em;
+  color: var(--site-muted-color);
+  font-size: 0.875em;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.65;
+  white-space: nowrap;
+}
+.about-record-body {
+  min-width: 0;
+}
+.about-record-title {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+.about-record-context {
+  color: var(--site-secondary-color);
+  font-size: 0.875em;
+}
+.page__content .about-record-meta {
+  margin: 0.15rem 0 0;
+  color: var(--site-muted-color);
+  font-size: 0.875em;
+  line-height: 1.45;
+}
+@media (max-width: 600px) {
+  .about-records {
+    font-size: 15px;
+  }
+  .page__content .about-records > li {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.05rem;
+    padding: 0.45rem 0;
+  }
+  .about-record-date {
+    font-size: 0.8em;
+  }
+}
