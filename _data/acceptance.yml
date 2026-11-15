@@ -1,0 +1,83 @@
+# Statistics from the corresponding acceptance notifications.
+# Retain the stated track, cycle, denominator and approximation as source metadata.
+# The public display uses compact counts and percentages only.
+# A missing accepted count is not inferred from a rounded percentage.
+
+higashiguchi2027missingaware:
+  submitted: 1588
+  reported_rate: 17.8
+  approximate: true
+  scope: "Research track, 1st cycle"
+  denominator: "valid submissions"
+
+isaji2027nonnegative:
+  submitted: 1588
+  reported_rate: 17.8
+  approximate: true
+  scope: "Research track, 1st cycle"
+  denominator: "valid submissions"
+
+kawabata2026rolemine:
+  accepted: 597
+  submitted: 2216
+  scope: "Full research papers"
+
+nakamura2026fast:
+  submitted: 912
+  reported_rate: 20.0
+  approximate: true
+  scope: "Research track, 1st cycle"
+  denominator: "valid submissions"
+
+higashiguchi2026interpretable:
+  accepted: 676
+  submitted: 3370
+  scope: "Research tracks; valid submissions"
+
+higashiguchi2025dtracker:
+  submitted: 967
+  reported_rate: 19.0
+  approximate: true
+  scope: "Research track, August cycle"
+
+obata2024mining:
+  submitted: 2046
+  reported_rate: 20.0
+  approximate: true
+  scope: "Research track"
+
+obata2024dynamic:
+  submitted: 2008
+  reported_rate: 20.2
+  scope: "Research tracks"
+
+kawabata2023modeling:
+  accepted: 365
+  submitted: 1900
+  scope: "11 research tracks"
+
+nakamura2023fast:
+  accepted: 365
+  submitted: 1900
+  scope: "11 research tracks"
+
+kimura2022fast:
+  accepted: 195
+  submitted: 753
+  scope: "Applied Data Science track"
+
+kawabata2021ssmf:
+  submitted: 9122
+  reported_rate: 26.0
+  scope: "Full papers"
+
+kawabata2020nonlinear:
+  accepted: 216
+  submitted: 1279
+  scope: "Research track"
+
+kawabata2019automatic:
+  accepted: 200
+  submitted: 1030
+  approximate: true
+  scope: "Full research papers"
