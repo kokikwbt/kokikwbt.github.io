@@ -1,0 +1,33 @@
+# KAKEN dates use calendar months, with roles checked against each project record.
+# The DC2 fellowship is listed separately in its scheme metadata; no grant number is inferred.
+- period: "2026.04–2029.03"
+  title: "データストリームのためのリアルタイム解析基盤の開発"
+  title_language: "ja"
+  scheme: "JSPS KAKENHI · Scientific Research (A)"
+  role: "Co-Investigator"
+  grant_number: "26H02499"
+  principal_investigator: "Yasushi Sakurai"
+  url: "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-26H02499/"
+
+- period: "2025.04–2028.03"
+  title: "大規模時系列グラフからの自動コミュニティ検出アルゴリズムの開発"
+  title_language: "ja"
+  scheme: "JSPS KAKENHI · Early-Career Scientists"
+  role: "Principal Investigator"
+  grant_number: "25K21208"
+  url: "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-25K21208/"
+
+- period: "2022.04–2025.03"
+  title: "大規模時系列テンソルの動的構造化アルゴリズムの開発"
+  title_language: "ja"
+  scheme: "JSPS KAKENHI · Early-Career Scientists"
+  role: "Principal Investigator"
+  grant_number: "22K17896"
+  url: "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-22K17896/"
+
+- period: "2019–2021"
+  title: "IoTビッグデータの要因分析に基づく将来イベント予測"
+  title_language: "ja"
+  scheme: "JSPS Research Fellowship"
+  role: "Research Fellow (DC2)"
+  url: "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202101002957256232"
