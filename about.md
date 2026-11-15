@@ -11,6 +11,35 @@ I am an Assistant Professor at SANKEN, The University of Osaka, working on data 
 
 I received my Ph.D. in Information Science from The University of Osaka in 2021. My work spans data-stream processing, tensor decomposition, anomaly detection, and time-series analysis, with an emphasis on algorithms that are both mathematically grounded and useful in real-world settings.
 
+## Honors & Awards
+{: #honors-awards}
+
+<ul class="about-records about-awards" role="list">
+{% for award in site.data.awards %}
+  <li>
+    <span class="about-record-date">{{ award.date | escape }}</span>
+    <div class="about-record-body">
+      <a class="about-record-title" href="{{ award.url | escape }}" lang="{{ award.language | default: 'en' | escape }}">{{ award.name | escape }}</a>{% if award.context %}<span class="about-record-context"> · {{ award.context | escape }}</span>{% endif %}
+    </div>
+  </li>
+{% endfor %}
+</ul>
+
+## Research Funding
+{: #research-funding}
+
+<ul class="about-records about-funding" role="list">
+{% for project in site.data.funding %}
+  <li>
+    <span class="about-record-date">{{ project.period | escape }}</span>
+    <div class="about-record-body">
+      <a class="about-record-title" href="{{ project.url | escape }}" lang="{{ project.title_language | default: 'ja' | escape }}">{{ project.title | escape }}</a>
+      <p class="about-record-meta">{{ project.role | escape }} · {{ project.scheme | escape }}{% if project.grant_number %} · {{ project.grant_number | escape }}{% endif %}{% if project.principal_investigator %} · PI: {{ project.principal_investigator | escape }}{% endif %}</p>
+    </div>
+  </li>
+{% endfor %}
+</ul>
+
 ## Affiliation
 
 **The Institute of Scientific and Industrial Research (SANKEN)**<br>
