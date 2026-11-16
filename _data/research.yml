@@ -1,0 +1,76 @@
+- id: tensor-forecasting
+  title: Tensor Forecasting
+  illustration: research/tensor-forecasting.svg
+  question: How will multi-aspect data evolve?
+  description: >-
+    Tensor models forecast how activity evolves across time, locations, and other
+    attributes. By capturing shared dynamics, trends, and seasonality, these
+    models connect future predictions with interpretable patterns in
+    multidimensional data.
+  works:
+    - key: higashiguchi2025dtracker
+      title: "D-Tracker: Modeling Interest Diffusion in Social Activity Tensor Data Streams"
+      venue: KDD
+      year: 2025
+    - key: kawabata2023modeling
+      title: Modeling Dynamic Interactions over Tensor Streams
+      venue: WWW
+      year: 2023
+
+- id: dependency-discovery
+  title: Dependency Discovery
+  illustration: research/dependency-discovery.svg
+  question: Which variables are related?
+  description: >-
+    Dependency discovery reveals how statistical relationships change across
+    multivariate and tensor time series. Structured network models separate
+    relationships across data dimensions, making it possible to inspect which
+    variables are connected and how those connections evolve.
+  works:
+    - key: higashiguchi2026interpretable
+      title: Interpretable Dynamic Network Modeling of Tensor Time Series via Kronecker Time-Varying Graphical Lasso
+      venue: WWW
+      year: 2026
+    - key: obata2024dynamic
+      title: Dynamic Multi-Network Mining of Tensor Time Series
+      venue: WWW
+      year: 2024
+
+- id: anomaly-detection
+  title: Anomaly Detection
+  illustration: research/anomaly-detection.svg
+  question: Which observed behaviors are unusual?
+  description: >-
+    Anomaly detection methods identify unusual behavior in event streams and
+    interaction graphs. Temporal patterns, node roles, and heterogeneous
+    attributes provide context for finding deviations and interpreting their
+    characteristics, with applications in cybersecurity and communications.
+  works:
+    - key: kawabata2026rolemine
+      title: "RoleMine: Mining Behavioral Patterns in Heterogeneous Call Graphs"
+      venue: CIKM
+      year: 2026
+    - key: nakamura2025cybercscope
+      title: "CyberCScope: Mining Skewed Tensor Streams and Online Anomaly Detection in Cybersecurity Systems"
+      venue: WWW
+      year: 2025
+
+- id: predictive-maintenance
+  title: Predictive Maintenance (PdM)
+  illustration: research/predictive-maintenance.svg
+  question: How much time remains until a failure?
+  description: >-
+    Predictive maintenance uses sensor data to forecast equipment events and
+    estimate the time remaining until failure. Models capture changing operating
+    stages and relationships between sensors, updating predictions as new
+    measurements arrive.
+  works:
+    - key: nakamura2026fast
+      title: Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams
+      venue: KDD
+      year: 2026
+    - key: domestic2020tensor
+      title: 大規模時系列テンソルによる多角的イベント予測
+      venue: TOD
+      year: 2020
+      language: ja

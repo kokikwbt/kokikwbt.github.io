@@ -1,0 +1,25 @@
+<svg class="research-diagram research-diagram--anomalies" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" fill="none" role="img" aria-labelledby="research-anomalies-title research-anomalies-desc">
+  <title id="research-anomalies-title">Anomaly detection</title>
+  <desc id="research-anomalies-desc">A group of similar observations forms a soft cluster. One unusual observation is highlighted in coral with a surrounding ring.</desc>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M29 43V146H332" stroke="var(--research-grid, #bdc8d3)" stroke-width="1.7"/>
+    <path d="M57 80C66 53 109 48 136 48 166 47 202 60 208 85 216 114 190 137 157 137 127 139 112 128 89 133 59 138 42 107 57 80Z" fill="var(--research-teal-soft, #cfefeb)" opacity=".7"/>
+    <g fill="var(--research-teal, #087c7e)">
+      <circle cx="70" cy="105" r="7"/>
+      <circle cx="92" cy="76" r="7.5"/>
+      <circle cx="112" cy="118" r="7"/>
+      <circle cx="128" cy="93" r="8"/>
+      <circle cx="152" cy="67" r="6.5"/>
+      <circle cx="161" cy="116" r="7.5"/>
+      <circle cx="187" cy="91" r="7"/>
+    </g>
+    <circle cx="279" cy="65" r="27" fill="var(--research-coral-soft, #f5d9d4)" opacity=".8"/>
+    <circle cx="279" cy="65" r="18" stroke="var(--research-coral, #c96c67)" stroke-width="2.7"/>
+    <circle cx="279" cy="65" r="7.8" fill="var(--research-coral, #c96c67)"/>
+    <path d="M279 94V134" stroke="var(--research-coral, #c96c67)" stroke-width="1.6" stroke-dasharray="3 6" opacity=".65"/>
+  </g>
+  <g fill="var(--research-muted, #53616f)" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle">
+    <text x="129" y="172">Expected</text>
+    <text x="279" y="172">Unusual</text>
+  </g>
+</svg>

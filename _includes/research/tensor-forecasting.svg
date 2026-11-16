@@ -1,0 +1,25 @@
+<svg class="research-diagram research-diagram--forecasting" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" fill="none" role="img" aria-labelledby="research-forecasting-title research-forecasting-desc">
+  <title id="research-forecasting-title">Tensor forecasting</title>
+  <desc id="research-forecasting-desc">A small tensor cube represents several data dimensions. Beside it, a solid time series continues into a dotted future prediction.</desc>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M34 78 74 55 114 78 74 101Z" fill="var(--research-blue-soft, #d3e8f7)"/>
+    <path d="M34 78 74 101 74 145 34 122Z" fill="var(--research-teal-soft, #cfefeb)"/>
+    <path d="M74 101 114 78 114 122 74 145Z" fill="var(--research-surface, #e3eaf0)"/>
+    <g stroke="var(--research-teal, #087c7e)" stroke-width="1.4" opacity=".52">
+      <path d="M47.3 70.3 87.3 93.3M60.7 62.7 100.7 85.7M47.3 85.7 87.3 62.7M60.7 93.3 100.7 70.3"/>
+      <path d="M34 92.7 74 115.7 114 92.7M34 107.3 74 130.3 114 107.3M47.3 85.7V129.7M60.7 93.3V137.3M87.3 93.3V137.3M100.7 85.7V129.7"/>
+    </g>
+    <path d="M34 78 74 55 114 78V122L74 145 34 122ZM34 78 74 101 114 78M74 101V145" stroke="var(--research-teal, #087c7e)" stroke-width="2.7"/>
+    <rect x="240" y="43" width="94" height="91" rx="13" fill="var(--research-blue-soft, #d3e8f7)" opacity=".7"/>
+    <path d="M161 134H334M161 49V134" stroke="var(--research-grid, #bdc8d3)" stroke-width="1.7"/>
+    <path d="M162 93H333M162 113H333" stroke="var(--research-grid, #bdc8d3)" stroke-width="1.2" opacity=".65"/>
+    <path d="M240 44V134" stroke="var(--research-muted, #53616f)" stroke-width="1.5" stroke-dasharray="3 6" opacity=".6"/>
+    <path d="M170 114C180 114 178 98 190 101S205 116 215 104 228 84 240 89" stroke="var(--research-teal, #087c7e)" stroke-width="3.6"/>
+    <path d="M240 89C253 94 257 72 272 79S291 83 302 69 316 65 327 58" stroke="var(--research-teal, #087c7e)" stroke-width="3.6" stroke-dasharray="5 7"/>
+    <circle cx="240" cy="89" r="4.8" fill="var(--research-teal, #087c7e)" stroke="var(--research-surface, #e3eaf0)" stroke-width="2"/>
+  </g>
+  <g fill="var(--research-muted, #53616f)" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle">
+    <text x="198" y="160">Past</text>
+    <text x="288" y="160">Future</text>
+  </g>
+</svg>
