@@ -1,0 +1,27 @@
+<svg class="research-diagram research-diagram--dependencies" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" fill="none" role="img" aria-labelledby="research-dependencies-title research-dependencies-desc">
+  <title id="research-dependencies-title">Dependency discovery</title>
+  <desc id="research-dependencies-desc">Three observed signals are paired with a sparse network. Undirected lines show selected statistical relationships, without implying causality.</desc>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <rect x="25" y="42" width="127" height="104" rx="17" fill="var(--research-surface, #e3eaf0)" stroke="var(--research-grid, #bdc8d3)" stroke-width="1.5"/>
+    <path d="M38 76H139M38 104H139M38 132H139" stroke="var(--research-grid, #bdc8d3)" stroke-width="1.2" opacity=".65"/>
+    <path d="M38 69C45 70 47 58 55 60S65 78 74 70 82 56 92 63 101 76 110 68 125 58 139 66" stroke="var(--research-teal, #087c7e)" stroke-width="3.2"/>
+    <path d="M38 95C48 106 52 85 62 88S72 104 82 98 91 87 101 92 111 106 121 98 130 86 139 92" stroke="var(--research-blue, #477ca6)" stroke-width="3.2"/>
+    <path d="M38 123C48 118 52 129 62 124S73 110 82 115 94 131 104 123 115 110 125 117 134 124 139 120" stroke="var(--research-teal, #087c7e)" stroke-width="3.2" opacity=".72"/>
+    <g fill="var(--research-muted, #53616f)" opacity=".55">
+      <circle cx="169" cy="94" r="2"/>
+      <circle cx="179" cy="94" r="2"/>
+      <circle cx="189" cy="94" r="2"/>
+    </g>
+    <path d="M230 57 301 95 230 133" stroke="var(--research-muted, #53616f)" stroke-width="3.3"/>
+    <circle cx="230" cy="57" r="14" fill="var(--research-teal-soft, #cfefeb)" stroke="var(--research-teal, #087c7e)" stroke-width="3"/>
+    <circle cx="301" cy="95" r="16" fill="var(--research-blue-soft, #d3e8f7)" stroke="var(--research-blue, #477ca6)" stroke-width="3"/>
+    <circle cx="230" cy="133" r="14" fill="var(--research-teal-soft, #cfefeb)" stroke="var(--research-teal, #087c7e)" stroke-width="3"/>
+    <circle cx="230" cy="57" r="3.7" fill="var(--research-teal, #087c7e)"/>
+    <circle cx="301" cy="95" r="4" fill="var(--research-blue, #477ca6)"/>
+    <circle cx="230" cy="133" r="3.7" fill="var(--research-teal, #087c7e)"/>
+  </g>
+  <g fill="var(--research-muted, #53616f)" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle">
+    <text x="88" y="172">Signals</text>
+    <text x="267" y="172">Links</text>
+  </g>
+</svg>
