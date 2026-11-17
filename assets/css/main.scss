@@ -37,6 +37,62 @@
     "layout/sidebar"
 ;
 
+/* A natural portrait within the native AcademicPages profile. */
+.academic-profile--with-photo .author__avatar {
+  display: block;
+  width: 184px;
+  max-width: 100%;
+  margin-bottom: 18px;
+}
+.academic-profile--with-photo .author__avatar img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  padding: 0;
+  border: 1px solid var(--global-border-color);
+  border-radius: 16px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+}
+@media (max-width: 924px) {
+  .academic-profile--with-photo {
+    display: grid;
+    grid-template-columns: 88px minmax(0, 1fr);
+    column-gap: 16px;
+    row-gap: 10px;
+    align-items: start;
+  }
+  .academic-profile--with-photo .author__avatar {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    width: 88px;
+    margin: 0;
+  }
+  .academic-profile--with-photo .author__avatar img {
+    border-radius: 12px;
+  }
+  .academic-profile--with-photo .author__content {
+    display: block;
+    grid-column: 2;
+    min-width: 0;
+    padding-right: 0;
+  }
+  .academic-profile--with-photo .author__urls-wrapper {
+    display: block;
+    grid-column: 2;
+    width: fit-content;
+  }
+  .academic-profile--with-photo .author__urls {
+    left: 0;
+    right: auto;
+    min-width: 170px;
+  }
+  .academic-profile--with-photo .author__urls::before,
+  .academic-profile--with-photo .author__urls::after {
+    left: 20px;
+  }
+}
+
 /* Compact publication lists within the native AcademicPages layout. */
 .academic-profile .author__content {
   padding-left: 0;

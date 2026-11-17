@@ -1,9 +1,9 @@
 {% include base_path %}
 {% assign author = site.author %}
-<div itemscope itemtype="https://schema.org/Person" class="academic-profile">
+<div itemscope itemtype="https://schema.org/Person" class="academic-profile{% if author.avatar and author.avatar != empty %} academic-profile--with-photo{% endif %}">
   {% if author.avatar and author.avatar != empty %}
   <div class="author__avatar">
-    <img src="{{ author.avatar | relative_url }}" alt="{{ author.name | escape }}" fetchpriority="high">
+    <img src="{{ author.avatar | relative_url }}" alt="{{ author.name | escape }}" width="1990" height="1990" itemprop="image" decoding="async" fetchpriority="high">
   </div>
   {% endif %}
   <div class="author__content">

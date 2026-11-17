@@ -19,7 +19,7 @@ site_theme: default
 
 author:
   name: Koki Kawabata
-  avatar:
+  avatar: /assets/images/koki-kawabata.jpg
   bio: Assistant Professor
   location: Osaka, Japan
   employer: SANKEN, The University of Osaka
